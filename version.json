@@ -1,5 +1,5 @@
 {
-    "version": "2.6",
-    "url": "https://files.catbox.moe/9mowhr.zip",
-    "notes": "Fermeture marchand par la croix (calibrable merchant_close_button) au lieu de la touche inventaire."
+    "version": "2.7",
+    "url": "https://files.catbox.moe/czx2ly.zip",
+    "notes": "Anti-keylogger: raccourcis F1/F2 via RegisterHotKey (plus de lib keyboard). Auto-update fiabilise (3 retries)."
 }
