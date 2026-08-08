@@ -1,5 +1,5 @@
 {
-    "version": "2.21",
-    "url": "https://files.catbox.moe/locs5k.zip",
-    "notes": "Presets de calibration marchand Fullscreen/Windowed 100% corriges (OCR nom d'item/marchand elargi a droite, clic du montant place a droite du nombre). Aucun changement de code par rapport a la 2.20."
+    "version": "2.22",
+    "url": "https://files.catbox.moe/5gbe13.zip",
+    "notes": "Bouton 'Test Webhook' (onglet Webhook) pour verifier ton webhook en 1 clic. Auto-buy marchand : l'espacement des slots s'adapte a la resolution de l'ecran (fix pour 2560x1440 et autres)."
 }
