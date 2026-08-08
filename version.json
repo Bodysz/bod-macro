@@ -1,5 +1,5 @@
 {
-    "version": "2.4",
-    "url": "https://files.catbox.moe/acdx6t.zip",
-    "notes": "Auto-install Tesseract, boutons Start/Stop en haut, profils de configuration, Refresh roles simplifie."
+    "version": "2.5",
+    "url": "https://files.catbox.moe/lupxr2.zip",
+    "notes": "Mise a jour AUTOMATIQUE sur place (garde config/stats/profils), nom d'exe stable BodBiomeMacro."
 }
