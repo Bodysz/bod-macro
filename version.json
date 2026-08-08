@@ -1,5 +1,5 @@
 {
-    "version": "2.17",
-    "url": "https://files.catbox.moe/c8bo78.zip",
-    "notes": "Biome BLAZING SUN ajoute a la detection. Correction : le titre de la fenetre affiche maintenant la vraie version (plus de v2.15 fige)."
+    "version": "2.18",
+    "url": "https://files.catbox.moe/2055fx.zip",
+    "notes": "Calibration Rin renommee 'Open Rin's Merchant' (elle sert a ouvrir le shop de Rin ; laisser 0,0 pour partager le bouton de Mari/Jester). Logique de detection marchand inchangee. Inclut BLAZING SUN."
 }
