@@ -1,5 +1,5 @@
 {
-    "version": "2.18",
-    "url": "https://files.catbox.moe/2055fx.zip",
-    "notes": "Calibration Rin renommee 'Open Rin's Merchant' (elle sert a ouvrir le shop de Rin ; laisser 0,0 pour partager le bouton de Mari/Jester). Logique de detection marchand inchangee. Inclut BLAZING SUN."
+    "version": "2.19",
+    "url": "https://files.catbox.moe/dmceis.zip",
+    "notes": "Config Profiles : 'Save current as...' propose desormais un menu deroulant des profils existants (selectionne-en un pour le mettre a jour en 1 clic, ou tape un nouveau nom). Inclut BLAZING SUN + 'Open Rin's Merchant'."
 }
