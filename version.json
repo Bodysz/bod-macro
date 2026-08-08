@@ -1,5 +1,5 @@
 {
-    "version": "2.10",
-    "url": "https://files.catbox.moe/x1qrj4.zip",
-    "notes": "Auto-update reparee (User-Agent requis par catbox). A installer manuellement une derniere fois depuis une version anterieure."
+    "version": "2.11",
+    "url": "https://files.catbox.moe/v87ai3.zip",
+    "notes": "Bouton 'Search update' (verif manuelle), interface plus soignee (espacement onglets, boutons compacts, cadres et pickers stylises)."
 }
