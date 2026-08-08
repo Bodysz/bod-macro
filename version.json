@@ -1,5 +1,5 @@
 {
-    "version": "2.20",
-    "url": "https://files.catbox.moe/n4ggru.zip",
-    "notes": "Nouveau biome HEAVEN. Thumbnail BLAZING SUN corrige (vraie image du biome). Resume de session a l'arret : le webhook 'Macro Status' affiche le temps de cette session + le total des dernieres 24h, et un lien Discord optionnel (champ 'Discord Invite' dans l'onglet Webhook)."
+    "version": "2.21",
+    "url": "https://files.catbox.moe/locs5k.zip",
+    "notes": "Presets de calibration marchand Fullscreen/Windowed 100% corriges (OCR nom d'item/marchand elargi a droite, clic du montant place a droite du nombre). Aucun changement de code par rapport a la 2.20."
 }
