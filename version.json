@@ -1,5 +1,5 @@
 {
-    "version": "2.9",
-    "url": "https://files.catbox.moe/ush2ft.zip",
-    "notes": "Interface plus soignee (en-tete, badge d'etat, Start/Stop colores). Images de credits retirees."
+    "version": "2.10",
+    "url": "https://files.catbox.moe/x1qrj4.zip",
+    "notes": "Auto-update reparee (User-Agent requis par catbox). A installer manuellement une derniere fois depuis une version anterieure."
 }
