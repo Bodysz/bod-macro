@@ -1,5 +1,5 @@
 {
-    "version": "2.15",
-    "url": "https://files.catbox.moe/zr7u97.zip",
-    "notes": "Onglet Biomes (au lieu du bouton). Calibration dediee 'Rin's Shop Button' pour le bouton decale de Rin."
+    "version": "2.16",
+    "url": "https://files.catbox.moe/pp4thv.zip",
+    "notes": "Ajout du biome BLAZING SUN a la detection (notification + webhook avec l'icone du biome)."
 }
