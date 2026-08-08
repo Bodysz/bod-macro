@@ -1,5 +1,5 @@
 {
-    "version": "2.22",
-    "url": "https://files.catbox.moe/5gbe13.zip",
-    "notes": "Bouton 'Test Webhook' (onglet Webhook) pour verifier ton webhook en 1 clic. Auto-buy marchand : l'espacement des slots s'adapte a la resolution de l'ecran (fix pour 2560x1440 et autres)."
+    "version": "2.23",
+    "url": "https://files.catbox.moe/9z762w.zip",
+    "notes": "Strange Controller : cooldown par defaut passe a 21 minutes (au lieu de 15). Si tu avais deja une valeur perso, elle est conservee."
 }
