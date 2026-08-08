@@ -1,5 +1,5 @@
 {
-    "version": "2.19",
-    "url": "https://files.catbox.moe/dmceis.zip",
-    "notes": "Config Profiles : 'Save current as...' propose desormais un menu deroulant des profils existants (selectionne-en un pour le mettre a jour en 1 clic, ou tape un nouveau nom). Inclut BLAZING SUN + 'Open Rin's Merchant'."
+    "version": "2.20",
+    "url": "https://files.catbox.moe/n4ggru.zip",
+    "notes": "Nouveau biome HEAVEN. Thumbnail BLAZING SUN corrige (vraie image du biome). Resume de session a l'arret : le webhook 'Macro Status' affiche le temps de cette session + le total des dernieres 24h, et un lien Discord optionnel (champ 'Discord Invite' dans l'onglet Webhook)."
 }
