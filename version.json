@@ -1,5 +1,5 @@
 {
-    "version": "2.23",
-    "url": "https://files.catbox.moe/9z762w.zip",
-    "notes": "Strange Controller : cooldown par defaut passe a 21 minutes (au lieu de 15). Si tu avais deja une valeur perso, elle est conservee."
+    "version": "2.24",
+    "url": "https://files.catbox.moe/rthnlc.zip",
+    "notes": "Le lien du serveur prive est maintenant detecte tout seul depuis Roblox : les webhooks (biome + marchand) publient le serveur ou tu es reellement, sans rien remplir. Bouton 'Detect' dans l'onglet Webhook. L'auto-reconnect s'en sert aussi en repli. Corrige 2 bugs du reconnect : un share link faisait perdre 3 tentatives, et une reconnexion reussie a la derniere tentative etait annulee."
 }
