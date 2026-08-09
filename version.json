@@ -1,5 +1,5 @@
 {
-    "version": "2.24",
-    "url": "https://files.catbox.moe/rthnlc.zip",
-    "notes": "Le lien du serveur prive est maintenant detecte tout seul depuis Roblox : les webhooks (biome + marchand) publient le serveur ou tu es reellement, sans rien remplir. Bouton 'Detect' dans l'onglet Webhook. L'auto-reconnect s'en sert aussi en repli. Corrige 2 bugs du reconnect : un share link faisait perdre 3 tentatives, et une reconnexion reussie a la derniere tentative etait annulee."
+    "version": "2.25",
+    "url": "https://files.catbox.moe/vy1zil.zip",
+    "notes": "Nouveau toggle 'Auto-update server link' (onglet Webhook, active par defaut) : le lien du serveur prive se met a jour tout seul sur le serveur ou tu es, sans aucune action. Desactive-le pour que la macro respecte strictement le lien que tu as saisi."
 }
