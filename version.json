@@ -1,5 +1,5 @@
 {
-    "version": "2.25",
-    "url": "https://files.catbox.moe/vy1zil.zip",
-    "notes": "Nouveau toggle 'Auto-update server link' (onglet Webhook, active par defaut) : le lien du serveur prive se met a jour tout seul sur le serveur ou tu es, sans aucune action. Desactive-le pour que la macro respecte strictement le lien que tu as saisi."
+    "version": "2.26",
+    "url": "https://files.catbox.moe/djgc6o.zip",
+    "notes": "Correction : le lien de serveur prive detecte automatiquement etait refuse par la validation (elle exigeait le slug '/Sols-RNG' dans l'URL). N'importe quel slug est desormais accepte, et un champ vide n'affiche plus d'erreur."
 }
