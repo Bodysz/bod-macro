@@ -1,5 +1,5 @@
 {
-    "version": "2.27",
-    "url": "https://files.catbox.moe/dbqc36.zip",
-    "notes": "Detection du serveur prive nettement plus fiable : elle survit desormais aux rejoins automatiques. Apres un rejoin, Roblox est relance sans l'URL de jonction et le code du lien disparait ; la macro compare alors l'accessCode des logs a celui memorise et restitue le bon lien s'il s'agit du meme serveur. Le message du bouton Detect distingue aussi serveur public et serveur prive sans lien."
+    "version": "2.28",
+    "url": "https://files.catbox.moe/2tqani.zip",
+    "notes": "Correction des pings : un pseudo saisi a la place d'un identifiant Discord produisait une mention morte du type '<@Bod>', affichee en texte et sans ping. La macro n'envoie plus de mention invalide, et t'avertit immediatement si une cible de ping ne pingera personne. Discord n'accepte que des identifiants numeriques : utilise 'Refresh roles & members' puis choisis la personne dans la liste."
 }
