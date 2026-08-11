@@ -1,5 +1,5 @@
 {
-    "version": "2.29",
-    "url": "https://files.catbox.moe/vfyrsx.zip",
-    "notes": "Trois nouveaux onglets : Anti-AFK (evite le kick d'inactivite), Webhooks (plusieurs destinations Discord, chacune abonnee aux evenements de son choix) et Accounts (nomme tes comptes Roblox, detectes depuis les logs - aucun mot de passe ni cookie n'est lu). Base d'auras passee de 96 a 322 : beaucoup d'auras n'etaient pas reconnues et ne declenchaient donc aucun ping. Les variantes de nom (casse, prefixe, orthographe) sont desormais tolerees. Vignettes HEAVEN et BLAZING SUN corrigees, installeur Tesseract mis a jour en 5.5.3."
+    "version": "2.30",
+    "url": "https://files.catbox.moe/dmsysd.zip",
+    "notes": "Les onglets Webhooks et Accounts sont retires. L'onglet Anti-AFK est conserve, ainsi que les corrections de la 2.29 : base d'auras a 322 (beaucoup d'auras n'etaient pas reconnues et ne declenchaient aucun ping), tolerance aux variantes de nom d'aura, vignettes HEAVEN et BLAZING SUN corrigees, installeur Tesseract 5.5.3 et mentions Discord invalides bloquees."
 }
