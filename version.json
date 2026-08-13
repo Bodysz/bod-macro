@@ -1,5 +1,5 @@
 {
-    "version": "2.35",
-    "url": "https://files.catbox.moe/s9yht6.zip",
-    "notes": "Page Biomes refondue : une ligne par biome avec sa couleur, un interrupteur moderne, et trois groupes (standard, rares en @everyone, ignore). Potion automatique reglable par biome, avec sa quantite. Champs, listes deroulantes, interrupteurs et boutons passes dans un style moderne unifie. Onglet Webhook en premier, Misc devient Automation. Nouveau reglage : mettre en pause le biome randomizer et le strange controller pendant certains biomes. Correction importante : apres un achat, la boutique du marchand se refermait et les objets suivants n'etaient jamais inspectes ; elle est desormais rouverte pour poursuivre la verification. Le tableau de bord s'adapte au redimensionnement de la fenetre."
+    "version": "2.36",
+    "url": "https://files.catbox.moe/4nzbsv.zip",
+    "notes": "Potions multiples par biome via un bouton Settings sur chaque ligne. Interrupteurs redessines avec une transition en fondu. Le vrai logo de la macro remplace l'asterisque dans la barre laterale, et l'icone a ete regeneree depuis l'image d'origine avec un renforcement par taille : elle n'est plus floue. Badge d'etat en pastille arrondie. Marchand : une capture a la detection ET une une fois la boutique ouverte, pour voir ce qu'il vend sans se connecter. Journal des biomes retire de l'affichage, exclusion de biomes desormais dans une fenetre dediee, et correction du defilement qui provoquait des micro-bugs visuels."
 }
