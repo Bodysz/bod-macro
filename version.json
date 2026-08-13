@@ -1,5 +1,5 @@
 {
-    "version": "2.40",
-    "url": "https://files.catbox.moe/glumht.zip",
-    "notes": "Correction du logo disparu de la barre des taches : les tailles de l'icone etaient encodees en PNG, un format que Windows ne rend pas pour la barre des taches ; elles sont desormais en BMP. Gros travail d'optimisation : le redimensionnement de la fenetre passe de 4100 ms a environ 56 ms par etape, les changements d'onglet a 11 ms, et la fuite de widgets (des centaines crees a chaque glissement) est supprimee. Reduire puis rouvrir la fenetre ne bugue plus."
+    "version": "2.41",
+    "url": "https://files.catbox.moe/ug4nd7.zip",
+    "notes": "Correction bloquante : plus aucune page ne s'affichait (le conteneur des pages n'etait plus positionne, et trois methodes d'interface etaient definies en double, la mauvaise version ecrasant la bonne). Les angles des boutons et des champs sont enfin nets : les cadres ttk gardaient la couleur de fond de page alors que le contenu vit dans un panneau plus clair, si bien que les coins arrondis laissaient voir un aplat plus sombre. Redimensionnement environ cinq fois plus rapide : les sept pages masquees etaient remises en page a chaque pixel alors qu'elles sont invisibles ; elles sont desormais retirees pendant le geste et reposees une par une ensuite (436 ms a environ 60-90 ms par etape). La page Biomes ne recalcule plus ses 145 lignes pendant un redimensionnement. Nouveau : changer d'onglet joue un fondu entrant avec un leger glissement de bas en haut ; le logo, les boutons de navigation et le titre en restent exclus. Le titre ne garde plus la fin du precedent (\"Biomesard\")."
 }
