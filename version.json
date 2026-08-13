@@ -1,5 +1,5 @@
 {
-    "version": "2.37",
-    "url": "https://files.catbox.moe/mk8lxp.zip",
-    "notes": "Onglet Anti-AFK complet : interrupteur d'etat, boutons Masquer/Afficher Roblox, type d'action (saut, marche, zoom, touche libre), curseur d'intervalle de 30 s a 15 min, mode multi-instance qui applique l'action a toutes les fenetres Roblox, detection d'activite (en mode Smart, l'action est sautee pendant que tu utilises le PC) et choix de ce qu'on fait de la fenetre apres l'action. Les boutons et les champs de saisie ont desormais des angles arrondis, dessines en image puisque Tk ne sait pas le faire."
+    "version": "2.38",
+    "url": "https://files.catbox.moe/vc7hqm.zip",
+    "notes": "Boutons, champs de saisie et listes deroulantes desormais arrondis PARTOUT : le rendu des elements ttk a ete remplace, donc tous les widgets existants en heritent. Interrupteurs redessines en image, ils ne sont plus crenels. Le gel au passage en grand ecran est corrige (les cartes ne redessinent plus qu'un aplat et leurs quatre coins). Molette de la page Biomes reparee. 'Hide Roblox' masque completement le jeu, barre des taches comprise, sans le fermer. L'anti-AFK n'envoie son action que si Roblox a bien recu le focus, jamais dans une autre fenetre. Potion Transcendent ajoutee."
 }
