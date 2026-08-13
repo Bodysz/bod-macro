@@ -1,5 +1,5 @@
 {
-    "version": "2.30",
-    "url": "https://files.catbox.moe/dmsysd.zip",
-    "notes": "Les onglets Webhooks et Accounts sont retires. L'onglet Anti-AFK est conserve, ainsi que les corrections de la 2.29 : base d'auras a 322 (beaucoup d'auras n'etaient pas reconnues et ne declenchaient aucun ping), tolerance aux variantes de nom d'aura, vignettes HEAVEN et BLAZING SUN corrigees, installeur Tesseract 5.5.3 et mentions Discord invalides bloquees."
+    "version": "2.31",
+    "url": "https://files.catbox.moe/strn98.zip",
+    "notes": "Optimisation de l'interface. La detection d'auras relisait le journal Roblox EN ENTIER toutes les 0,6 seconde - jusqu'a 76 Mo, soit 205 ms a chaque passage : elle ne lit plus que la fin du fichier (118x plus rapide, meme resultat). L'animation de l'onglet Stats se redessinait 40 fois par seconde en permanence, meme onglet masque ; elle est desormais suspendue quand on ne la voit pas. Les changements d'onglet sont nettement plus fluides."
 }
