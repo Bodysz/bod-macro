@@ -1,5 +1,5 @@
 {
-    "version": "2.36",
-    "url": "https://files.catbox.moe/4nzbsv.zip",
-    "notes": "Potions multiples par biome via un bouton Settings sur chaque ligne. Interrupteurs redessines avec une transition en fondu. Le vrai logo de la macro remplace l'asterisque dans la barre laterale, et l'icone a ete regeneree depuis l'image d'origine avec un renforcement par taille : elle n'est plus floue. Badge d'etat en pastille arrondie. Marchand : une capture a la detection ET une une fois la boutique ouverte, pour voir ce qu'il vend sans se connecter. Journal des biomes retire de l'affichage, exclusion de biomes desormais dans une fenetre dediee, et correction du defilement qui provoquait des micro-bugs visuels."
+    "version": "2.37",
+    "url": "https://files.catbox.moe/mk8lxp.zip",
+    "notes": "Onglet Anti-AFK complet : interrupteur d'etat, boutons Masquer/Afficher Roblox, type d'action (saut, marche, zoom, touche libre), curseur d'intervalle de 30 s a 15 min, mode multi-instance qui applique l'action a toutes les fenetres Roblox, detection d'activite (en mode Smart, l'action est sautee pendant que tu utilises le PC) et choix de ce qu'on fait de la fenetre apres l'action. Les boutons et les champs de saisie ont desormais des angles arrondis, dessines en image puisque Tk ne sait pas le faire."
 }
