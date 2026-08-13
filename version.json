@@ -1,5 +1,5 @@
 {
-    "version": "2.39",
-    "url": "https://files.catbox.moe/hxn9kl.zip",
-    "notes": "Correction du liseré bleu qui apparaissait dans les angles des boutons et des champs : les coins de l'image etant transparents, Tk laissait voir le fond bleu par defaut du theme. Les coins arrondis des cartes etaient aussi orientes a l'envers, ils sont maintenant decoupes dans un vrai rectangle arrondi. Boutons, champs et listes deroulantes arrondis partout, texte des listes retabli."
+    "version": "2.40",
+    "url": "https://files.catbox.moe/glumht.zip",
+    "notes": "Correction du logo disparu de la barre des taches : les tailles de l'icone etaient encodees en PNG, un format que Windows ne rend pas pour la barre des taches ; elles sont desormais en BMP. Gros travail d'optimisation : le redimensionnement de la fenetre passe de 4100 ms a environ 56 ms par etape, les changements d'onglet a 11 ms, et la fuite de widgets (des centaines crees a chaque glissement) est supprimee. Reduire puis rouvrir la fenetre ne bugue plus."
 }
