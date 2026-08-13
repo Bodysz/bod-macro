@@ -1,5 +1,5 @@
 {
-    "version": "2.32",
-    "url": "https://files.catbox.moe/bp1u6x.zip",
-    "notes": "Nouvelle interface facon tableau de bord : barre laterale a icones au lieu des onglets, et une page Dashboard inedite (etat, temps de session, biome courant, compteurs de biomes en direct). Les champs, listes et cadres sont accordes au theme sombre. La fenetre s'ouvre en 980x700 pour que les cartes tiennent entierement."
+    "version": "2.33",
+    "url": "https://files.catbox.moe/00q6wd.zip",
+    "notes": "Couleurs unifiees sur toutes les pages : les cadres et listes ne melangent plus bordures bleues et grises, et les quatre gris differents sont ramenes a une seule palette. Onglets reordonnes de facon logique (accueil, ce qu'on suit, ou l'on notifie, reglages, resultats). Le nom de la page s'affiche au survol de son icone. L'onglet Anti-AFK est retire. Correction : l'effet visuel de GLITCHED faisait tressauter toute la page Stats, sa largeur est desormais figee."
 }
