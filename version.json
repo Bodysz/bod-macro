@@ -1,5 +1,5 @@
 {
-    "version": "2.33",
-    "url": "https://files.catbox.moe/00q6wd.zip",
-    "notes": "Couleurs unifiees sur toutes les pages : les cadres et listes ne melangent plus bordures bleues et grises, et les quatre gris differents sont ramenes a une seule palette. Onglets reordonnes de facon logique (accueil, ce qu'on suit, ou l'on notifie, reglages, resultats). Le nom de la page s'affiche au survol de son icone. L'onglet Anti-AFK est retire. Correction : l'effet visuel de GLITCHED faisait tressauter toute la page Stats, sa largeur est desormais figee."
+    "version": "2.34",
+    "url": "https://files.catbox.moe/jdm2kc.zip",
+    "notes": "Interface revue : chaque page est posee dans un panneau au lieu de flotter sur le fond, et tous les boutons suivent un accent unique (violet pour l'action principale, contour discret pour le reste) au lieu du melange vert/bleu/gris. Onglet Stats supprime : ses compteurs faisaient doublon avec le tableau de bord, qui recupere l'import/export ; le journal des biomes passe dans Misc. Correction des textes flous (double gras synthetise) et des fonds qui ne prenaient pas la bonne couleur."
 }
