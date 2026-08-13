@@ -1,5 +1,5 @@
 {
-    "version": "2.34",
-    "url": "https://files.catbox.moe/jdm2kc.zip",
-    "notes": "Interface revue : chaque page est posee dans un panneau au lieu de flotter sur le fond, et tous les boutons suivent un accent unique (violet pour l'action principale, contour discret pour le reste) au lieu du melange vert/bleu/gris. Onglet Stats supprime : ses compteurs faisaient doublon avec le tableau de bord, qui recupere l'import/export ; le journal des biomes passe dans Misc. Correction des textes flous (double gras synthetise) et des fonds qui ne prenaient pas la bonne couleur."
+    "version": "2.35",
+    "url": "https://files.catbox.moe/s9yht6.zip",
+    "notes": "Page Biomes refondue : une ligne par biome avec sa couleur, un interrupteur moderne, et trois groupes (standard, rares en @everyone, ignore). Potion automatique reglable par biome, avec sa quantite. Champs, listes deroulantes, interrupteurs et boutons passes dans un style moderne unifie. Onglet Webhook en premier, Misc devient Automation. Nouveau reglage : mettre en pause le biome randomizer et le strange controller pendant certains biomes. Correction importante : apres un achat, la boutique du marchand se refermait et les objets suivants n'etaient jamais inspectes ; elle est desormais rouverte pour poursuivre la verification. Le tableau de bord s'adapte au redimensionnement de la fenetre."
 }
