@@ -1,5 +1,5 @@
 {
-    "version": "2.31",
-    "url": "https://files.catbox.moe/strn98.zip",
-    "notes": "Optimisation de l'interface. La detection d'auras relisait le journal Roblox EN ENTIER toutes les 0,6 seconde - jusqu'a 76 Mo, soit 205 ms a chaque passage : elle ne lit plus que la fin du fichier (118x plus rapide, meme resultat). L'animation de l'onglet Stats se redessinait 40 fois par seconde en permanence, meme onglet masque ; elle est desormais suspendue quand on ne la voit pas. Les changements d'onglet sont nettement plus fluides."
+    "version": "2.32",
+    "url": "https://files.catbox.moe/bp1u6x.zip",
+    "notes": "Nouvelle interface facon tableau de bord : barre laterale a icones au lieu des onglets, et une page Dashboard inedite (etat, temps de session, biome courant, compteurs de biomes en direct). Les champs, listes et cadres sont accordes au theme sombre. La fenetre s'ouvre en 980x700 pour que les cartes tiennent entierement."
 }
