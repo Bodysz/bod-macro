@@ -1,5 +1,5 @@
 {
-    "version": "2.38",
-    "url": "https://files.catbox.moe/vc7hqm.zip",
-    "notes": "Boutons, champs de saisie et listes deroulantes desormais arrondis PARTOUT : le rendu des elements ttk a ete remplace, donc tous les widgets existants en heritent. Interrupteurs redessines en image, ils ne sont plus crenels. Le gel au passage en grand ecran est corrige (les cartes ne redessinent plus qu'un aplat et leurs quatre coins). Molette de la page Biomes reparee. 'Hide Roblox' masque completement le jeu, barre des taches comprise, sans le fermer. L'anti-AFK n'envoie son action que si Roblox a bien recu le focus, jamais dans une autre fenetre. Potion Transcendent ajoutee."
+    "version": "2.39",
+    "url": "https://files.catbox.moe/hxn9kl.zip",
+    "notes": "Correction du liseré bleu qui apparaissait dans les angles des boutons et des champs : les coins de l'image etant transparents, Tk laissait voir le fond bleu par defaut du theme. Les coins arrondis des cartes etaient aussi orientes a l'envers, ils sont maintenant decoupes dans un vrai rectangle arrondi. Boutons, champs et listes deroulantes arrondis partout, texte des listes retabli."
 }
