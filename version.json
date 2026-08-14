@@ -1,5 +1,5 @@
 {
-    "version": "2.43",
-    "url": "https://files.catbox.moe/2l9jl8.zip",
-    "notes": "Pastille d'etat : le texte est de nouveau centre et le cadre est complet. Le centrage utilisait le milieu metrique de la police, jambages compris : un texte sans descendante comme '3104 detected' se retrouvait 2 px trop bas et mordait le bord inferieur ; il est desormais centre sur la boite d'encre reelle. Le contour, trace a cheval sur le bord de l'image, etait a moitie coupe et le trait du bas ressortait plus terne que celui du haut : il est rentre d'une demi-epaisseur, les deux bords sont maintenant identiques. La pastille garde une hauteur constante de 28 px et s'elargit avec son texte, le bouton 'Search update' reculant d'autant."
+    "version": "2.44",
+    "url": "https://files.catbox.moe/vkfkx5.zip",
+    "notes": "La pastille corrigee en 2.43 etait celle de l'en-tete ; celle qui debordait est celle du tableau de bord, dans la carte 'Biome Counts'. Elle avait le meme defaut : un libelle superpose a un fond fige de 118 px, si bien qu'un total a quatre chiffres depassait de la forme arrondie et que le texte n'etait ni centre ni entierement encadre. Forme et texte sont maintenant dessines dans une seule image qui s'elargit avec le nombre, les boutons Export et Import reculant d'autant. Verifie jusqu'a '1234567 detected'."
 }
