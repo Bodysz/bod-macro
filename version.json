@@ -1,5 +1,5 @@
 {
-    "version": "2.52",
-    "url": "https://files.catbox.moe/ireon2.zip",
-    "notes": "Start (F1) et Stop (F2) sont repris dans la barre d'en-tete : ils restent accessibles depuis n'importe quel onglet, sans revenir au tableau de bord. Memes commandes et memes raccourcis que ceux de la carte d'etat, et ils reculent automatiquement quand la pastille d'etat s'allonge. Correction : une ligne de navigation gardait definitivement l'eclaircissement du survol. Le survol changeait le fond de la ligne, mais le changement d'onglet ne reinitialisait que son image ; les onglets deja parcourus affichaient donc un rectangle plus clair en permanence."
+    "version": "2.53",
+    "url": "https://files.catbox.moe/onmgv8.zip",
+    "notes": "La page Biomes est la derniere a passer en elements dessines. Le fond des lignes, la pastille de couleur, le nom du biome, le resume des potions et le libelle de l'interrupteur sont desormais dessines dans le canevas au lieu d'etre des widgets ; seuls les trois elements reellement interactifs de chaque ligne - bouton Settings, choix du ping et interrupteur - restent des widgets, incrustes dans le canevas. La page tombe de 130 a 52 widgets et gagne pres de 50 pour cent au redimensionnement. Le comportement est identique : les potions par biome, le choix du ping, le defilement a la molette, le resume qui affiche 'no potion', le nom de la potion ou le nombre, et la fenetre de reglages fonctionnent comme avant. Avec le tableau de bord passe au meme principe dans la version precedente, les deux pages les plus chargees ont ete allegees de plus de 130 widgets au total."
 }
