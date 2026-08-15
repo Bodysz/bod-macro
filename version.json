@@ -1,5 +1,5 @@
 {
-    "version": "2.44",
-    "url": "https://files.catbox.moe/vkfkx5.zip",
-    "notes": "La pastille corrigee en 2.43 etait celle de l'en-tete ; celle qui debordait est celle du tableau de bord, dans la carte 'Biome Counts'. Elle avait le meme defaut : un libelle superpose a un fond fige de 118 px, si bien qu'un total a quatre chiffres depassait de la forme arrondie et que le texte n'etait ni centre ni entierement encadre. Forme et texte sont maintenant dessines dans une seule image qui s'elargit avec le nombre, les boutons Export et Import reculant d'autant. Verifie jusqu'a '1234567 detected'."
+    "version": "2.45",
+    "url": "https://files.catbox.moe/zwuxvh.zip",
+    "notes": "Option Rebuy : un objet coche Rebuy est desormais achete TROIS fois d'affilee au lieu d'une. La sequence d'achat (montant, bouton Purchase, confirmation) est simplement repetee trois fois, sans reouvrir la boutique entre chaque. Le total reste plafonne a trois par marchand, meme si l'objet occupe plusieurs emplacements. Sans Rebuy, l'objet est achete une seule fois par visite, comme avant. Correction au passage : les reglages d'objets enregistres AVANT l'ajout de l'option Rebuy ne contiennent que deux valeurs ; le code les depaquetait directement en trois et levait une ValueError qui interrompait tout le traitement du marchand - aucun objet achete et boutique laissee ouverte. La lecture tolere maintenant deux ou trois valeurs, avec Rebuy desactive par defaut."
 }
