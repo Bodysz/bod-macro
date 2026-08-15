@@ -1,5 +1,5 @@
 {
-    "version": "2.45",
-    "url": "https://files.catbox.moe/zwuxvh.zip",
-    "notes": "Option Rebuy : un objet coche Rebuy est desormais achete TROIS fois d'affilee au lieu d'une. La sequence d'achat (montant, bouton Purchase, confirmation) est simplement repetee trois fois, sans reouvrir la boutique entre chaque. Le total reste plafonne a trois par marchand, meme si l'objet occupe plusieurs emplacements. Sans Rebuy, l'objet est achete une seule fois par visite, comme avant. Correction au passage : les reglages d'objets enregistres AVANT l'ajout de l'option Rebuy ne contiennent que deux valeurs ; le code les depaquetait directement en trois et levait une ValueError qui interrompait tout le traitement du marchand - aucun objet achete et boutique laissee ouverte. La lecture tolere maintenant deux ou trois valeurs, avec Rebuy desactive par defaut."
+    "version": "2.46",
+    "url": "https://files.catbox.moe/6f46ry.zip",
+    "notes": "Fenetres secondaires enfin au meme theme que le reste : calibration des marchands, reglages Mari / Jester / Rin, cibles de ping, potions... Elles gardaient le gris #222222 de ttkbootstrap alors que les libelles et les champs sont dessines sur la couleur de carte : un rectangle plus clair apparaissait derriere CHAQUE libelle et le meme aplat se voyait dans les angles arrondis des champs. Les neuf fenetres sont desormais alignees. Les boutons colores (Save Calibration, Save Selections, Start (F1), Stop (F2), Cancel) utilisaient les bootstyle de ttkbootstrap, qui ne passent pas par nos elements en image et restaient donc carres : ils ont leur propre style arrondi, vert ou rouge."
 }
