@@ -1,5 +1,5 @@
 {
-    "version": "2.50",
-    "url": "https://files.catbox.moe/f6crfi.zip",
-    "notes": "Suite de l'optimisation du redimensionnement. La page Biomes perd quinze widgets : la pastille de couleur et le nom du biome tiennent desormais dans un seul libelle (image a gauche du texte), pour un rendu identique. Audit complet du reste : les minuteurs sont tous des chaines ponctuelles, aucune boucle de sondage permanente, et le code Python ne represente que deux millisecondes sur les deux secondes et demie d'un redimensionnement - tout le reste est du dessin Tk. Mesure faite en pilotant la fenetre par l'API Windows : en vidant la fenetre de presque tout son contenu on ne depasse pas 17 images par seconde, c'est le cout du redimensionnement de Tk lui-meme. On est donc au plancher de ce que cette bibliotheque permet, sauf sur Biomes qui reste la page la plus chargee."
+    "version": "2.51",
+    "url": "https://files.catbox.moe/rm4hbw.zip",
+    "notes": "Le tableau de bord se redimensionne deux fois plus vite. La cause du lag est enfin identifiee : ce n'est ni Tk ni la fenetre, c'est le NOMBRE de widgets affiches. Mesure faite sur une fenetre nue : vide elle tient 104 images par seconde, avec 100 libelles elle tombe a 9, alors qu'avec 100 elements dessines dans un canevas elle reste a 80, soit neuf fois moins cher. Les quinze tuiles de compteurs, qui mobilisaient soixante widgets, sont donc devenues des rectangles, des pastilles et des textes dessines dans un seul canevas : la page passe de 105 a 45 widgets et de 6,5 a 11,6 images par seconde. Le code qui met les compteurs a jour n'a pas bouge d'une ligne, un adaptateur leur conservant l'interface d'un libelle. La page Biomes, avec ses 130 widgets, reste la prochaine sur la liste."
 }
