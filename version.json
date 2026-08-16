@@ -1,5 +1,5 @@
 {
-    "version": "2.54",
-    "url": "https://files.catbox.moe/jf20m4.zip",
-    "notes": "L'etat de la macro se voit maintenant sans ouvrir la fenetre. L'icone de la barre des taches porte une pastille verte quand la detection tourne et rouge quand elle est arretee : un coup d'oeil suffit. La pastille en bas de la barre laterale, qui restait bloquee sur 'Stopped', suit desormais reellement l'etat - elle avait ete ajoutee mais jamais branchee sur Start et Stop. Les icones sont generees une seule fois dans AppData et encodees en BMP, seul format que Windows affiche dans la barre des taches."
+    "version": "2.55",
+    "url": "https://files.catbox.moe/d256e2.zip",
+    "notes": "Correction importante des potions automatiques : elles partaient en boucle. Le declenchement etait place tout en haut de la fonction de detection, avant le test qui distingue un CHANGEMENT de biome d'un simple rappel. Or cette fonction est appelee a chaque tour de la boucle de detection : tant qu'on restait dans le biome, une nouvelle serie de potions repartait, et plusieurs fils se chevauchaient - d'ou des journaux ou 'using 1x Warp Potion' etait suivi de '1x Transcendent Potion used'. Le declenchement est desormais a l'interieur du test de changement, comme le compteur et le webhook, et un verrou empeche deux series de tourner en meme temps. Verifie : douze tours de boucle dans le meme biome ne boivent plus que la serie configuree, une seule fois, et ressortir puis revenir la relance normalement."
 }
