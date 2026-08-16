@@ -1,5 +1,5 @@
 {
-    "version": "2.56",
-    "url": "https://files.catbox.moe/oqnsti.zip",
-    "notes": "Une potion absente de l'inventaire ne declenche plus rien. Jusqu'ici la macro tapait le nom dans la recherche puis cliquait A L'AVEUGLE sur le premier emplacement, reglait la quantite et validait : si la potion n'etait pas possedee, elle pouvait valider autre chose, et le journal annoncait quand meme 'used' alors que rien n'avait ete bu. Desormais, apres la recherche, la macro photographie le panneau de detail, clique l'emplacement, puis compare : si l'ecran n'a pas bouge, c'est que la recherche n'a rien donne. Elle referme alors l'inventaire sans toucher au bouton Utiliser et l'ecrit dans le journal. Aucune calibration supplementaire n'est necessaire, la zone est deduite des points deja regles. En cas de probleme de capture, l'ancien comportement est conserve pour ne bloquer personne."
+    "version": "2.57",
+    "url": "https://files.catbox.moe/a18qrl.zip",
+    "notes": "Interface remise a nu. Tout l'habillage ajoute au fil des versions est retire : barre laterale, barre d'en-tete, cartes et panneaux dessines, angles arrondis, palette personnalisee, interrupteurs et pastilles dessines, fondu et glissement au changement d'onglet, mecanique de redimensionnement, icones d'etat de la barre des taches. La macro retrouve le carnet d'onglets ttk par defaut, avec les boutons Start et Stop en bas, comme a l'origine. AUCUNE fonction n'est touchee : les huit onglets sont tous la, avec les memes controles, les memes variables et les memes commandes - webhooks, biomes, auras, marchands, anti-AFK, automatisations, calibration, potions par biome, profils et donnees dans AppData fonctionnent a l'identique."
 }
