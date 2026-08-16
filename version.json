@@ -1,5 +1,5 @@
 {
-    "version": "2.53",
-    "url": "https://files.catbox.moe/onmgv8.zip",
-    "notes": "La page Biomes est la derniere a passer en elements dessines. Le fond des lignes, la pastille de couleur, le nom du biome, le resume des potions et le libelle de l'interrupteur sont desormais dessines dans le canevas au lieu d'etre des widgets ; seuls les trois elements reellement interactifs de chaque ligne - bouton Settings, choix du ping et interrupteur - restent des widgets, incrustes dans le canevas. La page tombe de 130 a 52 widgets et gagne pres de 50 pour cent au redimensionnement. Le comportement est identique : les potions par biome, le choix du ping, le defilement a la molette, le resume qui affiche 'no potion', le nom de la potion ou le nombre, et la fenetre de reglages fonctionnent comme avant. Avec le tableau de bord passe au meme principe dans la version precedente, les deux pages les plus chargees ont ete allegees de plus de 130 widgets au total."
+    "version": "2.54",
+    "url": "https://files.catbox.moe/jf20m4.zip",
+    "notes": "L'etat de la macro se voit maintenant sans ouvrir la fenetre. L'icone de la barre des taches porte une pastille verte quand la detection tourne et rouge quand elle est arretee : un coup d'oeil suffit. La pastille en bas de la barre laterale, qui restait bloquee sur 'Stopped', suit desormais reellement l'etat - elle avait ete ajoutee mais jamais branchee sur Start et Stop. Les icones sont generees une seule fois dans AppData et encodees en BMP, seul format que Windows affiche dans la barre des taches."
 }
