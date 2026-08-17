@@ -1,5 +1,5 @@
 {
-    "version": "2.67",
-    "url": "https://files.catbox.moe/jdtwug.zip",
-    "notes": "Le changement d'onglet est immediat. Il attendait jusqu'ici que Python reconstruise et renvoie le panneau avant de basculer : rien ne bougeait pendant l'aller-retour, et pour l'onglet Biomes cela representait 124 Ko de HTML a transmettre. L'onglet bascule maintenant tout de suite avec le panneau deja en memoire, et la mise a jour depuis la configuration reelle se fait ensuite en arriere-plan, sans rien remplacer si rien n'a change. Au passage, le fondu de changement d'onglet etait declenche deux fois, une fois par l'interface et une fois en trop : il ne l'est plus qu'une seule."
+    "version": "2.68",
+    "url": "https://files.catbox.moe/f35ly2.zip",
+    "notes": "Correctif important. Les boutons Start/Stop et Test Webhook n'appelaient plus rien du tout : l'interface rebranche certains boutons apres chaque affichage, ce qui remplacait l'action posee dans notre page. Ils ne jouaient donc que l'animation, sans demarrer la macro ni envoyer le message de test. Les deux passent maintenant par un ecouteur qui ne peut plus etre ecrase. L'indicateur d'etat vient desormais de la macro elle-meme et se met a jour chaque seconde : demarrer avec F1 se voit enfin dans la page, et un demarrage rate n'affiche plus 'Running' a tort. La barre laterale se reduit maintenant aux icones quand la fenetre est etroite : la regle existait mais la largeur minimale de la fenetre, fixee a 980 pixels, empechait d'atteindre le seuil de 900 ; on peut descendre jusqu'a 700. Enfin, dans les reglages marchands, les colonnes achat et rachat sont inversees comme demande."
 }
