@@ -1,5 +1,5 @@
 {
-    "version": "2.78",
-    "url": "https://files.catbox.moe/0els66.zip",
-    "notes": "L'anti-AFK retrouve son curseur d'intervalle, de 30 secondes a 15 minutes, avec la valeur affichee qui suit le glissement et l'enregistrement au relachement. Nouvel onglet Reglages : tous les raccourcis clavier de la macro y sont modifiables en appuyant simplement sur la combinaison voulue, Echap annule. Cinq raccourcis sont concernes : demarrer et arreter la detection, arreter un enregistrement ou une macro, et les deux raccourcis d'enregistrement d'extrait, aura et biome rare. Demarrer et arreter n'etaient pas modifiables jusqu'ici, ils etaient fixes sur F1 et F2. Un changement est pris en compte tout de suite, sans redemarrer la macro, et si une autre application detient deja la touche, le journal le signale au lieu de laisser un raccourci muet."
+    "version": "2.79",
+    "url": "https://files.catbox.moe/f15yd8.zip",
+    "notes": "Les champs de raccourci de l'onglet Reglages s'affichaient en blanc : ils utilisaient une classe que la feuille de style n'habille pas pour les saisies. Ils ont maintenant l'aspect du reste de l'interface. Surtout, la capture d'un raccourci se fait desormais dans la macro et non dans la page : le moteur de rendu avalait certaines combinaisons avant qu'elles n'arrivent, si bien que Alt + F10, F10 seule ou les touches de fonction combinees a Alt ne produisaient rien du tout. Elles sont reconnues. Echap annule toujours, et rien n'est ecrit si aucune touche n'est pressee."
 }
