@@ -1,5 +1,5 @@
 {
-    "version": "2.82",
-    "url": "https://files.catbox.moe/qe64vc.zip",
-    "notes": "La langue ne voyage plus avec un profil de configuration, quel que soit le chemin utilise : c'etait deja le cas dans l'interface actuelle, ce ne l'etait pas encore dans l'ancienne fenetre servant de repli. Charger un profil enregistre en francais alors qu'on est en anglais garde desormais la langue en cours. Le reste est identique a la 2.81."
+    "version": "2.83",
+    "url": "https://files.catbox.moe/t272h3.zip",
+    "notes": "Onglet Macros : un enregistrement retient maintenant le trajet de la souris, et l'appui et le relachement d'un bouton sont notes separement, donc un maintien ou un glisser se rejoue tel quel. Surtout, la relecture passe par AutoIt, comme tous les clics de la macro : elle utilisait pyautogui, que Roblox ignore, d'ou des macros qui semblaient ne rien faire. Automation : le delai se deplie par un chevron dans la ligne, plus par un bouton sur une barre separee. Marchands : cocher un objet ne referme plus la section ouverte."
 }
