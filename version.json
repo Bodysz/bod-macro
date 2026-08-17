@@ -1,5 +1,5 @@
 {
-    "version": "2.84",
-    "url": "https://files.catbox.moe/vhq05g.zip",
-    "notes": "Relecture des macros : la fenetre du jeu est desormais remise au premier plan avant de rejouer. C'etait la vraie cause des clics sans effet — Roblox ignore les clics quand il n'a pas le focus, et la relecture partait pendant que la fenetre de la macro etait devant. Tous les clics de la macro qui fonctionnent activaient deja la fenetre, la relecture etait la seule a ne pas le faire. Le clic est aussi reconstitue en appui tenu apres une courte pose, pour ne pas tomber entre deux images du jeu."
+    "version": "2.85",
+    "url": "https://files.catbox.moe/6dhlfa.zip",
+    "notes": "Nouveau raccourci pour enregistrer une macro, F3 par defaut, modifiable dans Reglages comme les autres : une premiere pression lance l'enregistrement, une seconde l'arrete et le range sous un nom libre, sans passer par l'onglet. La molette est desormais capturee et rejouee : elle est lue par RAWINPUT, l'API Windows prevue pour ca, sans hook souris. Les macros deja enregistrees restent lisibles ; il faut les refaire pour qu'elles contiennent la molette."
 }
