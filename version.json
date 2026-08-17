@@ -1,5 +1,5 @@
 {
-    "version": "2.76",
-    "url": "https://files.catbox.moe/eawz8b.zip",
-    "notes": "Calibrage automatique, dans l'onglet Calibrage. Il memorise a quoi ressemble l'ecran autour de chaque position deja calibree, puis retrouve ces reperes plus tard : c'est ce qui permet de recuperer tes positions apres un changement de resolution ou d'echelle. Deux boutons : memoriser les reperes une fois, le jeu affiche comme d'habitude, puis retrouver les positions quand elles ont bouge. Une position n'est modifiee que si la ressemblance est franche : sur une correspondance douteuse, la macro prefere ne rien changer et te le dire, plutot que de deplacer un clic au mauvais endroit. Les zones OCR ne sont pas concernees. Aucune dependance ajoutee, le paquet ne grossit pas."
+    "version": "2.77",
+    "url": "https://files.catbox.moe/jsopas.zip",
+    "notes": "Nouvel onglet Compte : rattache ta configuration a un compte pour la retrouver sur une autre machine. Le serveur tourne sur Cloudflare, gratuitement et en permanence ; son adresse se colle dans l'onglet. La macro fonctionne normalement sans compte, et si le serveur ne repond pas elle continue sur la configuration locale : une panne du serveur ne bloque personne. Le mot de passe n'est jamais garde sur le disque, seul un jeton de session l'est, et une adresse qui n'est pas en https est refusee. Les statistiques et la langue ne sont pas synchronisees : elles restent propres a chaque machine. Au passage, l'icone de l'onglet Automatisation devient une tete de robot, les des n'allaient pas avec le reste."
 }
