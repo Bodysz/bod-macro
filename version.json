@@ -1,5 +1,5 @@
 {
-    "version": "2.79",
-    "url": "https://files.catbox.moe/f15yd8.zip",
-    "notes": "Les champs de raccourci de l'onglet Reglages s'affichaient en blanc : ils utilisaient une classe que la feuille de style n'habille pas pour les saisies. Ils ont maintenant l'aspect du reste de l'interface. Surtout, la capture d'un raccourci se fait desormais dans la macro et non dans la page : le moteur de rendu avalait certaines combinaisons avant qu'elles n'arrivent, si bien que Alt + F10, F10 seule ou les touches de fonction combinees a Alt ne produisaient rien du tout. Elles sont reconnues. Echap annule toujours, et rien n'est ecrit si aucune touche n'est pressee."
+    "version": "2.80",
+    "url": "https://files.catbox.moe/woqn6y.zip",
+    "notes": "Le serveur de comptes est desormais livre avec la macro : plus aucune adresse a coller. Le compte reste facultatif, il ne sert qu'a retrouver sa configuration sur une autre machine, et l'onglet le dit clairement. Ceux qui veulent viser leur propre serveur peuvent toujours le faire, le champ est simplement replie. Un bouton Compte apparait aussi en haut a droite de chaque onglet : il affiche ton pseudo quand tu es connecte et mene directement a l'onglet Compte."
 }
