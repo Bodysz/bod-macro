@@ -1,5 +1,5 @@
 {
-    "version": "2.74",
-    "url": "https://files.catbox.moe/qb5kg2.zip",
-    "notes": "La capture de la boutique du marchand partait trop tot : le panneau apparait avant son contenu, et 0,25 seconde ne suffisait pas, d'ou une image montrant encore le decor du jeu. Le delai passe a 0,8 seconde apres reperage de la boutique, et a 1,6 seconde si elle n'a pas ete reperee du tout, plutot que de photographier dans le vide. La fenetre de reperage passe aussi de 3,5 a 5 secondes. Cette version reprend les huit points de la 2.73."
+    "version": "2.75",
+    "url": "https://files.catbox.moe/r7sbw3.zip",
+    "notes": "Nouvel onglet Macros. Il enregistre une suite de clics et de frappes, puis la rejoue : plusieurs macros nommees, avec renommage et suppression, un nombre de repetitions ou une repetition sans fin. Il fonctionne independamment du tableau de bord, comme l'anti-AFK : pas besoin que la detection soit demarree. L'enregistrement demarre apres deux secondes, le temps de revenir dans le jeu, et F4 arrete aussi bien un enregistrement qu'une relecture. La capture se fait par simple lecture de l'etat du clavier et de la souris, sans aucun hook global : c'est deliberer, un hook clavier est exactement ce que les antivirus signalent comme keylogger. Les macros sont rangees dans sequences.json, a cote de la configuration."
 }
