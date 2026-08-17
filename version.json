@@ -1,5 +1,5 @@
 {
-    "version": "2.75",
-    "url": "https://files.catbox.moe/r7sbw3.zip",
-    "notes": "Nouvel onglet Macros. Il enregistre une suite de clics et de frappes, puis la rejoue : plusieurs macros nommees, avec renommage et suppression, un nombre de repetitions ou une repetition sans fin. Il fonctionne independamment du tableau de bord, comme l'anti-AFK : pas besoin que la detection soit demarree. L'enregistrement demarre apres deux secondes, le temps de revenir dans le jeu, et F4 arrete aussi bien un enregistrement qu'une relecture. La capture se fait par simple lecture de l'etat du clavier et de la souris, sans aucun hook global : c'est deliberer, un hook clavier est exactement ce que les antivirus signalent comme keylogger. Les macros sont rangees dans sequences.json, a cote de la configuration."
+    "version": "2.76",
+    "url": "https://files.catbox.moe/eawz8b.zip",
+    "notes": "Calibrage automatique, dans l'onglet Calibrage. Il memorise a quoi ressemble l'ecran autour de chaque position deja calibree, puis retrouve ces reperes plus tard : c'est ce qui permet de recuperer tes positions apres un changement de resolution ou d'echelle. Deux boutons : memoriser les reperes une fois, le jeu affiche comme d'habitude, puis retrouver les positions quand elles ont bouge. Une position n'est modifiee que si la ressemblance est franche : sur une correspondance douteuse, la macro prefere ne rien changer et te le dire, plutot que de deplacer un clic au mauvais endroit. Les zones OCR ne sont pas concernees. Aucune dependance ajoutee, le paquet ne grossit pas."
 }
