@@ -1,5 +1,5 @@
 {
-    "version": "2.66",
-    "url": "https://files.catbox.moe/1xzy55.zip",
-    "notes": "Correctif de la mise a jour automatique elle-meme. Le script de remplacement attend que la macro se ferme avant de recopier les fichiers ; si la fermeture echouait, il tournait en boucle et la mise a jour ne se terminait jamais. La sortie est desormais garantie, et la configuration est enregistree juste avant pour ne pas perdre la session en cours. A noter si tu viens d'une version anterieure a la 2.63 : la notification de nouvelle version ne s'affichait pas du tout sous l'interface web, elle etait deposee dans une file que cette interface ne lit jamais. C'est corrige depuis, avec une banniere dans la page et un bouton 'Chercher une mise a jour' sous le numero de version."
+    "version": "2.67",
+    "url": "https://files.catbox.moe/jdtwug.zip",
+    "notes": "Le changement d'onglet est immediat. Il attendait jusqu'ici que Python reconstruise et renvoie le panneau avant de basculer : rien ne bougeait pendant l'aller-retour, et pour l'onglet Biomes cela representait 124 Ko de HTML a transmettre. L'onglet bascule maintenant tout de suite avec le panneau deja en memoire, et la mise a jour depuis la configuration reelle se fait ensuite en arriere-plan, sans rien remplacer si rien n'a change. Au passage, le fondu de changement d'onglet etait declenche deux fois, une fois par l'interface et une fois en trop : il ne l'est plus qu'une seule."
 }
