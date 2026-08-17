@@ -1,5 +1,5 @@
 {
-    "version": "2.85",
-    "url": "https://files.catbox.moe/6dhlfa.zip",
-    "notes": "Nouveau raccourci pour enregistrer une macro, F3 par defaut, modifiable dans Reglages comme les autres : une premiere pression lance l'enregistrement, une seconde l'arrete et le range sous un nom libre, sans passer par l'onglet. La molette est desormais capturee et rejouee : elle est lue par RAWINPUT, l'API Windows prevue pour ca, sans hook souris. Les macros deja enregistrees restent lisibles ; il faut les refaire pour qu'elles contiennent la molette."
+    "version": "2.86",
+    "url": "https://files.catbox.moe/0yhedz.zip",
+    "notes": "L'anti-AFK ne retrecit plus la fenetre du jeu : il la restaurait a chaque action, or restaurer une fenetre maximisee revient a la demaximiser. Desormais seule une fenetre reduite dans la barre des taches est restauree ; meme correction sur le bouton qui reaffiche Roblox. Nouveau reglage dans l'onglet Auras : la rarete minimale pour etre ping, a cote de la rarete minimale enregistree. Le reglage existait dans la macro mais n'etait nulle part dans l'interface."
 }
