@@ -1,5 +1,5 @@
 {
-    "version": "2.73",
-    "url": "https://files.catbox.moe/ea7t8g.zip",
-    "notes": "Huit points de la liste a faire. La langue ne voyage plus dans un profil de configuration : charger un profil francais depuis une interface anglaise melangeait les deux. Les delais entre deux utilisations d'objet (Marchands automatiques, Biome Randomizer, Strange Controller) sont de nouveau reglables dans Automatisation ; ce sont de vrais cooldowns, ils etaient enregistres mais plus modifiables. Un bouton Enregistrer arrive dans les reglages marchands, et le compteur d'objets actifs se met a jour au lieu de rester fige sur la valeur d'ouverture du panneau (il affichait 1 actif alors que tout etait decoche). Le raccourci d'enregistrement d'aura se configure en appuyant simplement sur les touches voulues. En barre laterale reduite, le bouton de mise a jour ne deborde plus et le choix de langue reste utilisable. La banniere de mise a jour indique enfin la version que tu as. Enfin, Auras, Automatisation et Calibrage affichaient tous la meme icone d'engrenage faute d'icone existante : les huit onglets ont desormais la leur."
+    "version": "2.74",
+    "url": "https://files.catbox.moe/qb5kg2.zip",
+    "notes": "La capture de la boutique du marchand partait trop tot : le panneau apparait avant son contenu, et 0,25 seconde ne suffisait pas, d'ou une image montrant encore le decor du jeu. Le delai passe a 0,8 seconde apres reperage de la boutique, et a 1,6 seconde si elle n'a pas ete reperee du tout, plutot que de photographier dans le vide. La fenetre de reperage passe aussi de 3,5 a 5 secondes. Cette version reprend les huit points de la 2.73."
 }
