@@ -1,5 +1,5 @@
 {
-    "version": "2.80",
-    "url": "https://files.catbox.moe/woqn6y.zip",
-    "notes": "Le serveur de comptes est desormais livre avec la macro : plus aucune adresse a coller. Le compte reste facultatif, il ne sert qu'a retrouver sa configuration sur une autre machine, et l'onglet le dit clairement. Ceux qui veulent viser leur propre serveur peuvent toujours le faire, le champ est simplement replie. Un bouton Compte apparait aussi en haut a droite de chaque onglet : il affiche ton pseudo quand tu es connecte et mene directement a l'onglet Compte."
+    "version": "2.81",
+    "url": "https://files.catbox.moe/6ti7j5.zip",
+    "notes": "Onglet Macros : un enregistrement se sauvegarde et se rejoue vraiment. Automation : les delais sont replies derriere un bouton et l'ordre suit Auto merchants, Biome Randomizer, Strange Controller, Auto reconnect. Merchants settings : le bouton d'enregistrement est desormais en bas de chaque marchand, il n'enregistre que celui-la. Dashboard : nouvelle ligne \"Session en cours\", remise a zero a chaque arret. Calibrage : douze pre-configurations livrees (2560x1440, 1920x1080, 1280x720, en 100 et 125 pourcent, plein ecran ou fenetre) ; celles hors 1920x1080 sont calculees a partir des mesures et l'onglet le signale."
 }
