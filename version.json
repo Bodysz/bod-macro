@@ -1,5 +1,5 @@
 {
-    "version": "2.81",
-    "url": "https://files.catbox.moe/6ti7j5.zip",
-    "notes": "Onglet Macros : un enregistrement se sauvegarde et se rejoue vraiment. Automation : les delais sont replies derriere un bouton et l'ordre suit Auto merchants, Biome Randomizer, Strange Controller, Auto reconnect. Merchants settings : le bouton d'enregistrement est desormais en bas de chaque marchand, il n'enregistre que celui-la. Dashboard : nouvelle ligne \"Session en cours\", remise a zero a chaque arret. Calibrage : douze pre-configurations livrees (2560x1440, 1920x1080, 1280x720, en 100 et 125 pourcent, plein ecran ou fenetre) ; celles hors 1920x1080 sont calculees a partir des mesures et l'onglet le signale."
+    "version": "2.82",
+    "url": "https://files.catbox.moe/qe64vc.zip",
+    "notes": "La langue ne voyage plus avec un profil de configuration, quel que soit le chemin utilise : c'etait deja le cas dans l'interface actuelle, ce ne l'etait pas encore dans l'ancienne fenetre servant de repli. Charger un profil enregistre en francais alors qu'on est en anglais garde desormais la langue en cours. Le reste est identique a la 2.81."
 }
