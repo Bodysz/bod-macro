@@ -1,5 +1,5 @@
 {
-    "version": "2.70",
-    "url": "https://files.catbox.moe/n2ypm9.zip",
-    "notes": "La 2.69 retombait sur l'ancienne interface : le pont charge le catalogue de traductions, mais son dossier n'etait pas dans le chemin d'import, donc l'interface web etait declaree indisponible et tout le monde basculait sur la fenetre classique. Le repli a fait son travail, personne n'a ete bloque, mais l'interface moderne etait injoignable. C'est corrige des deux cotes : le chargeur ajoute le dossier au chemin, et le pont sait aussi charger son catalogue tout seul. Verifie sur l'executable compile : la fenetre WebView2 s'ouvre bien. Cette version reprend la 2.69 : plus aucun acces tkinter sous l'interface web (c'est ce qui empechait la macro de demarrer et les reglages de s'enregistrer), interface en francais et en anglais avec le choix sous le numero de version, et rarete minimale des auras de nouveau en saisie libre."
+    "version": "2.71",
+    "url": "https://files.catbox.moe/6pzfh6.zip",
+    "notes": "Le changement de langue affichait une fenetre vide. La page recoit son contenu sous forme de HTML, sans adresse : la recharger ne pouvait donc rien afficher. Elle est maintenant reconstruite par la macro dans la nouvelle langue, sans rechargement. Le choix lui-meme n'etait pas conserve non plus : l'enregistrement rebatit la configuration a partir d'une liste de cles fixe, ou la langue ne figurait pas, et le reglage etait donc efface aussitot ecrit. Verifie dans une vraie fenetre : passage francais vers anglais et retour, la page reste complete et se traduit."
 }
