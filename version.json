@@ -1,5 +1,5 @@
 {
-    "version": "2.89",
-    "url": "https://files.catbox.moe/9285rx.zip",
-    "notes": "Chaque macro a maintenant un bouton Load / Unload. La macro chargee est encadree et marquee dans la liste, et c'est elle que joue le nouveau raccourci F6 -- reglable dans les Reglages, comme les autres. Plus besoin de deviner sur quoi les touches agissent : F3 enregistre, F6 joue la macro chargee, F4 arrete. Renommer une macro chargee la garde chargee, la supprimer libere le raccourci."
+    "version": "2.90",
+    "url": "https://files.catbox.moe/tk6zdv.zip",
+    "notes": "Correction du rebind des raccourcis. Un vrai defaut trouve : les touches Enregistrer une macro et Jouer la macro chargee etaient proposees dans les Reglages mais refusees a l'enregistrement, la capture affichait une erreur quelle que soit la touche appuyee. Trois filets en plus pour les machines ou la capture reste muette : la page ecoute maintenant le clavier de son cote, le champ du raccourci s'ecrit aussi a la main (f7, shift + f8...) avec verification, et le bouton ne peut plus rester bloque sur Appuie maintenant."
 }
