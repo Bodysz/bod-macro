@@ -1,5 +1,5 @@
 {
-    "version": "2.87",
-    "url": "https://files.catbox.moe/byi5hj.zip",
-    "notes": "Les compteurs de biomes du Dashboard se corrigent a la main : chaque case est devenue un champ, et un bouton Save enregistre tout d'un coup. Le total en haut de la carte suit ce que tu tapes. Utile pour repartir d'un total connu apres une session perdue. Un champ vide ou illisible laisse le compteur en place au lieu de le remettre a zero."
+    "version": "2.88",
+    "url": "https://files.catbox.moe/e5jvts.zip",
+    "notes": "Le champ des compteurs de biomes ne prend plus la place du nom : il se dimensionne sur le nombre qu'il affiche et son cadre est une ombre, qui n'occupe rien dans la ligne. Nouvelle echelle 150% dans les pre-configurations de calibrage, pour les trois resolutions et les deux modes. Attention : le 150% est deduit du 125%, pas mesure -- les reperes bougent de quelques pixels seulement d'une echelle Windows a l'autre. Si un clic tombe a cote, lance le calibrage automatique."
 }
