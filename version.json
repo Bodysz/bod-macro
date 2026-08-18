@@ -1,5 +1,5 @@
 {
-    "version": "2.86",
-    "url": "https://files.catbox.moe/0yhedz.zip",
-    "notes": "L'anti-AFK ne retrecit plus la fenetre du jeu : il la restaurait a chaque action, or restaurer une fenetre maximisee revient a la demaximiser. Desormais seule une fenetre reduite dans la barre des taches est restauree ; meme correction sur le bouton qui reaffiche Roblox. Nouveau reglage dans l'onglet Auras : la rarete minimale pour etre ping, a cote de la rarete minimale enregistree. Le reglage existait dans la macro mais n'etait nulle part dans l'interface."
+    "version": "2.87",
+    "url": "https://files.catbox.moe/byi5hj.zip",
+    "notes": "Les compteurs de biomes du Dashboard se corrigent a la main : chaque case est devenue un champ, et un bouton Save enregistre tout d'un coup. Le total en haut de la carte suit ce que tu tapes. Utile pour repartir d'un total connu apres une session perdue. Un champ vide ou illisible laisse le compteur en place au lieu de le remettre a zero."
 }
