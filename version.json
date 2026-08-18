@@ -1,5 +1,5 @@
 {
-    "version": "2.90",
-    "url": "https://files.catbox.moe/tk6zdv.zip",
-    "notes": "Correction du rebind des raccourcis. Un vrai defaut trouve : les touches Enregistrer une macro et Jouer la macro chargee etaient proposees dans les Reglages mais refusees a l'enregistrement, la capture affichait une erreur quelle que soit la touche appuyee. Trois filets en plus pour les machines ou la capture reste muette : la page ecoute maintenant le clavier de son cote, le champ du raccourci s'ecrit aussi a la main (f7, shift + f8...) avec verification, et le bouton ne peut plus rester bloque sur Appuie maintenant."
+    "version": "2.91",
+    "url": "https://files.catbox.moe/za212i.zip",
+    "notes": "Nouvel onglet Eden, entre Macros et Reglages : surveillance de l'ecran, ping Discord avec capture, macro jouee a la detection, et enregistrement declenche 30 s apres, retrouve dans tes videos puis envoye dans le salon du webhook. L'image de reference est a fournir toi-meme, elle n'existe pas dans le code source d'origine. Corrige aussi la suppression d'une cible de ping : celles qui venaient de ping_targets.json revenaient apres suppression, et un nom contenant une apostrophe rendait le bouton inerte."
 }
