@@ -1,5 +1,5 @@
 {
-    "version": "2.88",
-    "url": "https://files.catbox.moe/e5jvts.zip",
-    "notes": "Le champ des compteurs de biomes ne prend plus la place du nom : il se dimensionne sur le nombre qu'il affiche et son cadre est une ombre, qui n'occupe rien dans la ligne. Nouvelle echelle 150% dans les pre-configurations de calibrage, pour les trois resolutions et les deux modes. Attention : le 150% est deduit du 125%, pas mesure -- les reperes bougent de quelques pixels seulement d'une echelle Windows a l'autre. Si un clic tombe a cote, lance le calibrage automatique."
+    "version": "2.89",
+    "url": "https://files.catbox.moe/9285rx.zip",
+    "notes": "Chaque macro a maintenant un bouton Load / Unload. La macro chargee est encadree et marquee dans la liste, et c'est elle que joue le nouveau raccourci F6 -- reglable dans les Reglages, comme les autres. Plus besoin de deviner sur quoi les touches agissent : F3 enregistre, F6 joue la macro chargee, F4 arrete. Renommer une macro chargee la garde chargee, la supprimer libere le raccourci."
 }
