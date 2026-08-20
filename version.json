@@ -1,5 +1,5 @@
 {
-    "version": "2.94",
-    "url": "https://files.catbox.moe/92u70t.zip",
-    "notes": "Ce qui plombait les longues sessions : le journal. Chaque message reversait la liste ENTIERE dans macro_logs.txt -- 3 000 messages ecrivaient 44 895 lignes, et le total croit avec le carre du nombre de messages : sur 8 h a une ligne par seconde, de l'ordre de 8,7 Go ecrits sur le disque pour 0,6 Mo de journal utile, plus une macro qui ralentit au fil des heures. Le plafond de 2 Mo n'y changeait rien, il vidait le fichier et l'appel suivant y reversait tout, d'ou l'historique qui disparaissait. Desormais une ligne par message (0,5 ms au lieu d'un cout qui monte sans fin), la liste en memoire est bornee a 2 000 lignes, et le fichier garde sa moitie recente au lieu d'etre vide."
+    "version": "2.95",
+    "url": "https://files.catbox.moe/w7xd6n.zip",
+    "notes": "Les raccourcis ne confisquent plus tes touches quand tu n'es pas dans le jeu. Une touche prise par la macro l'etait pour tout Windows : F1 ne repondait plus nulle part tant qu'elle tournait. Elles sont maintenant rendues des que Roblox perd le focus, et reprises en y revenant -- reglable dans les Reglages si tu preferes l'ancien comportement. L'image de reference d'Eden n'est plus modifiable : celle livree avec la macro, tiree du detecteur d'origine, sert toujours."
 }
