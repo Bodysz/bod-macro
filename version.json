@@ -1,5 +1,5 @@
 {
-    "version": "2.96",
-    "url": "https://files.catbox.moe/3ll3fk.zip",
-    "notes": "Nouvel onglet Auto Fish, entre Macros et Eden : lancer, mini-jeu, ramassage, et retour au marchand tous les N lancers, avec ses filets de secours. Il a ses PROPRES reglages Biome Randomizer et Strange Controller : tant que la peche tourne, les minuteries de l'onglet Automatisation se taisent, sinon les deux se disputeraient l'inventaire et l'objet partirait deux fois -- l'onglet l'explique. Attention : le trajet jusqu'au marchand et la vente sont transcrits depuis la source mais n'ont jamais tourne en jeu, et seul le 1920x1080 est renseigne. A essayer en surveillant, pas en partant faire autre chose."
+    "version": "2.97",
+    "url": "https://files.catbox.moe/qmvzxk.zip",
+    "notes": "La macro chargee se lance vraiment au raccourci : le moteur pouvait rester coince a se croire occupe, et plus aucune lecture ne partait. Les drapeaux sont maintenant confrontes aux fils reels, et la touche devient une bascule -- un deuxieme appui arrete au lieu de repondre qu'une macro tourne deja. La touche est affichee a cote de la macro chargee. Toute touche affichee suit desormais le reglage : la pastille du Dashboard annoncait F1 quoi qu'il arrive. La carte Image de reference d'Eden disparait, elle n'avait plus rien a proposer. Et la synchronisation de compte se choisit famille par famille : calibrage, marchands, biomes, auras, webhook, automatisation, macros, Auto Fish, Eden, raccourcis, anti-AFK -- une liste pour ce qui part, une autre pour ce qu'on reprend."
 }
