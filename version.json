@@ -1,5 +1,5 @@
 {
-    "version": "2.97",
-    "url": "https://files.catbox.moe/qmvzxk.zip",
-    "notes": "La macro chargee se lance vraiment au raccourci : le moteur pouvait rester coince a se croire occupe, et plus aucune lecture ne partait. Les drapeaux sont maintenant confrontes aux fils reels, et la touche devient une bascule -- un deuxieme appui arrete au lieu de repondre qu'une macro tourne deja. La touche est affichee a cote de la macro chargee. Toute touche affichee suit desormais le reglage : la pastille du Dashboard annoncait F1 quoi qu'il arrive. La carte Image de reference d'Eden disparait, elle n'avait plus rien a proposer. Et la synchronisation de compte se choisit famille par famille : calibrage, marchands, biomes, auras, webhook, automatisation, macros, Auto Fish, Eden, raccourcis, anti-AFK -- une liste pour ce qui part, une autre pour ce qu'on reprend."
+    "version": "2.98",
+    "url": "https://files.catbox.moe/ad9v11.zip",
+    "notes": "L'onglet Auto Fish gagne ses reperes a l'ecran, avec le meme mecanisme que l'onglet Calibrage : champs modifiables et bouton Assigner qui ouvre le pointeur plein ecran. Sept reperes -- ou lancer, le pixel qui blanchit quand ca mord, ou poser le curseur, ou lire la couleur de la barre, le bouton de ramassage, la bande du mini-jeu et la zone 'plus rien a vendre'. Un repere laisse a zero garde la valeur livree. Ils restent dans l'onglet Auto Fish : l'onglet Calibrage garde l'inventaire et les marchands. Nouvelle touche F7 pour lancer ou arreter la peche, reglable dans les Reglages comme les autres."
 }
