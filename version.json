@@ -1,5 +1,5 @@
 {
-    "version": "2.98",
-    "url": "https://files.catbox.moe/ad9v11.zip",
-    "notes": "L'onglet Auto Fish gagne ses reperes a l'ecran, avec le meme mecanisme que l'onglet Calibrage : champs modifiables et bouton Assigner qui ouvre le pointeur plein ecran. Sept reperes -- ou lancer, le pixel qui blanchit quand ca mord, ou poser le curseur, ou lire la couleur de la barre, le bouton de ramassage, la bande du mini-jeu et la zone 'plus rien a vendre'. Un repere laisse a zero garde la valeur livree. Ils restent dans l'onglet Auto Fish : l'onglet Calibrage garde l'inventaire et les marchands. Nouvelle touche F7 pour lancer ou arreter la peche, reglable dans les Reglages comme les autres."
+    "version": "2.99",
+    "url": "https://files.catbox.moe/djypi3.zip",
+    "notes": "Passe d'optimisation, sans le moindre changement de comportement. Les comparaisons d'images passent du Python pur au code natif de PIL : resultats verifies identiques au bit pres, detection d'Eden 2,7 fois plus rapide (2 a 4 s -> moins d'une seconde), boucle du mini-jeu de peche 1,5 fois, calibrage automatique 4 fois. 402 lignes de code mort retirees (28 methodes que plus rien n'appelait, restes de l'ancienne fenetre et du flux Discord). Un vrai defaut trouve au passage : l'intervalle anti-AFK pouvait etre perdu sans un mot, sa sauvegarde etant avalee par un try silencieux. Audit complet du code par ailleurs : aucun doublon de definition, aucun import inutile, aucun argument par defaut mutable, aucun except nu."
 }
