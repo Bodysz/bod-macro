@@ -1,5 +1,5 @@
 {
-    "version": "2.92",
-    "url": "https://files.catbox.moe/gfp5nm.zip",
-    "notes": "L'onglet Eden marche maintenant sans rien preparer : l'image de reference est livree avec la macro, recuperee dans l'exe du detecteur d'origine. La recherche essaie quatorze tailles au lieu d'une seule -- sans ca, Eden affiche a l'ecran obtenait 0,40 et n'aurait jamais ete detecte. Mesure sur un vrai ecran : 0,39 sans Eden, 0,90 a 0,97 avec, a toutes les tailles ; le seuil par defaut passe a 0,75. Tu peux toujours charger ta propre image, elle passe devant celle livree."
+    "version": "2.93",
+    "url": "https://files.catbox.moe/1qoc8m.zip",
+    "notes": "Fuites de memoire des macros corrigees. La lecture de la molette laissait derriere elle une classe de fenetre a chaque enregistrement, jamais rendue : 40 enregistrements coutaient 1,1 Mo definitivement perdu, et un nom recycle pouvait couper la molette sans le dire. Le moteur gardait aussi les pas de la derniere macro pour toujours : 20 minutes d'enregistrement font 72 000 pas et 21 Mo, retenus apres l'ecriture sur le disque. Mesure apres correction : 40 enregistrements ne laissent plus que 0,01 Mo, et la memoire est rendue des que la macro est sauvegardee."
 }
