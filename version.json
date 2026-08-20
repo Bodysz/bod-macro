@@ -1,5 +1,5 @@
 {
-    "version": "2.95",
-    "url": "https://files.catbox.moe/w7xd6n.zip",
-    "notes": "Les raccourcis ne confisquent plus tes touches quand tu n'es pas dans le jeu. Une touche prise par la macro l'etait pour tout Windows : F1 ne repondait plus nulle part tant qu'elle tournait. Elles sont maintenant rendues des que Roblox perd le focus, et reprises en y revenant -- reglable dans les Reglages si tu preferes l'ancien comportement. L'image de reference d'Eden n'est plus modifiable : celle livree avec la macro, tiree du detecteur d'origine, sert toujours."
+    "version": "2.96",
+    "url": "https://files.catbox.moe/3ll3fk.zip",
+    "notes": "Nouvel onglet Auto Fish, entre Macros et Eden : lancer, mini-jeu, ramassage, et retour au marchand tous les N lancers, avec ses filets de secours. Il a ses PROPRES reglages Biome Randomizer et Strange Controller : tant que la peche tourne, les minuteries de l'onglet Automatisation se taisent, sinon les deux se disputeraient l'inventaire et l'objet partirait deux fois -- l'onglet l'explique. Attention : le trajet jusqu'au marchand et la vente sont transcrits depuis la source mais n'ont jamais tourne en jeu, et seul le 1920x1080 est renseigne. A essayer en surveillant, pas en partant faire autre chose."
 }
