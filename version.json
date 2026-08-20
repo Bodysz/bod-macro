@@ -1,5 +1,5 @@
 {
-    "version": "2.91",
-    "url": "https://files.catbox.moe/za212i.zip",
-    "notes": "Nouvel onglet Eden, entre Macros et Reglages : surveillance de l'ecran, ping Discord avec capture, macro jouee a la detection, et enregistrement declenche 30 s apres, retrouve dans tes videos puis envoye dans le salon du webhook. L'image de reference est a fournir toi-meme, elle n'existe pas dans le code source d'origine. Corrige aussi la suppression d'une cible de ping : celles qui venaient de ping_targets.json revenaient apres suppression, et un nom contenant une apostrophe rendait le bouton inerte."
+    "version": "2.92",
+    "url": "https://files.catbox.moe/gfp5nm.zip",
+    "notes": "L'onglet Eden marche maintenant sans rien preparer : l'image de reference est livree avec la macro, recuperee dans l'exe du detecteur d'origine. La recherche essaie quatorze tailles au lieu d'une seule -- sans ca, Eden affiche a l'ecran obtenait 0,40 et n'aurait jamais ete detecte. Mesure sur un vrai ecran : 0,39 sans Eden, 0,90 a 0,97 avec, a toutes les tailles ; le seuil par defaut passe a 0,75. Tu peux toujours charger ta propre image, elle passe devant celle livree."
 }
