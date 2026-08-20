@@ -1,5 +1,5 @@
 {
-    "version": "2.93",
-    "url": "https://files.catbox.moe/1qoc8m.zip",
-    "notes": "Fuites de memoire des macros corrigees. La lecture de la molette laissait derriere elle une classe de fenetre a chaque enregistrement, jamais rendue : 40 enregistrements coutaient 1,1 Mo definitivement perdu, et un nom recycle pouvait couper la molette sans le dire. Le moteur gardait aussi les pas de la derniere macro pour toujours : 20 minutes d'enregistrement font 72 000 pas et 21 Mo, retenus apres l'ecriture sur le disque. Mesure apres correction : 40 enregistrements ne laissent plus que 0,01 Mo, et la memoire est rendue des que la macro est sauvegardee."
+    "version": "2.94",
+    "url": "https://files.catbox.moe/92u70t.zip",
+    "notes": "Ce qui plombait les longues sessions : le journal. Chaque message reversait la liste ENTIERE dans macro_logs.txt -- 3 000 messages ecrivaient 44 895 lignes, et le total croit avec le carre du nombre de messages : sur 8 h a une ligne par seconde, de l'ordre de 8,7 Go ecrits sur le disque pour 0,6 Mo de journal utile, plus une macro qui ralentit au fil des heures. Le plafond de 2 Mo n'y changeait rien, il vidait le fichier et l'appel suivant y reversait tout, d'ou l'historique qui disparaissait. Desormais une ligne par message (0,5 ms au lieu d'un cout qui monte sans fin), la liste en memoire est bornee a 2 000 lignes, et le fichier garde sa moitie recente au lieu d'etre vide."
 }
