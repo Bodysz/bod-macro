@@ -1,5 +1,5 @@
 {
-    "version": "3.06",
-    "url": "https://files.catbox.moe/aqegcv.zip",
-    "notes": "Correction d'un defaut qui faussait toute la calibration de la peche. Un point pointe a la main arrivait une fois et demie trop grand, et appliquer une pre-configuration ecrasait au passage la calibration qu'on venait de faire. La cause : la macro apprend la mise a l'echelle de Windows AU DEMARRAGE et n'en change plus. La changer pendant qu'elle tourne la laissait annoncer 1280x720 pour un ecran 1080p a 150%, alors que ses captures, ses clics et son pointeur restaient en 1920x1080 : elle divisait alors les 24 reperes de peche par 1,5 (862 devenait 575). La resolution se lit maintenant sur les pixels reels du bureau, qui ne dependent d'aucun etat du processus -- changer l'echelle en cours de session ne fausse plus rien. Les deux profils de peche livres, fabriques dans cet espace fantome, sont remis en pixels reels. Si vos reperes de peche ont ete abimes par une version precedente : onglet Auto Fish, bouton Appliquer de la pre-configuration, et tout repart droit."
+    "version": "3.07",
+    "url": "https://files.catbox.moe/jz645a.zip",
+    "notes": "Un libelle de calibrage disait le contraire de ce que fait le clic. \"Vente : ouvrir le marchand\" designait en realite la case du poisson dans la liste du marchand : ce point est clique a chaque cycle de vente, juste avant Sell / Sell All, et le marchand lui s'ouvre par le dialogue. Il s'appelle maintenant \"Vente : le poisson dans la liste (1re case)\". Rien ne change dans le fonctionnement, et la calibration deja faite sur ce point est conservee -- seule l'etiquette etait fausse."
 }
