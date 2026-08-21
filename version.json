@@ -1,5 +1,5 @@
 {
-    "version": "3.11",
-    "url": "https://files.catbox.moe/0aijq0.zip",
-    "notes": "Le mini-jeu ne clique plus dans le vide. Il lit une couleur en un point, puis clique tant qu'il ne la retrouve pas dans la bande : si le point de lecture n'est pas DANS la bande, la couleur relevee ne s'y trouvera jamais et la macro martele jusqu'a la fin du mini-jeu, sans un mot. Desormais, deux filets. Au demarrage, la macro verifie -- avec vos valeurs calibrees -- que le point de lecture tombe bien dans la bande, et vous previent sinon : c'est une faute impossible a voir a l'oeil dans un tableau de chiffres. Et pendant le mini-jeu, si la couleur n'a jamais paru au bout d'une seconde et demie, elle arrete de cliquer et nomme les deux reperes en cause au lieu de continuer a l'aveugle."
+    "version": "3.12",
+    "url": "https://files.catbox.moe/gi2tys.zip",
+    "notes": "Correctif de la 3.11. Le garde-fou ajoute hier rendait la main au bout d'une seconde et demie quand la couleur du mini-jeu restait introuvable. Sur un ecran ou les reperes sont faux, la macro enchainait donc immediatement sur le ramassage puis un nouveau lancer, pendant que le mini-jeu tournait encore. Le script d'origine, lui, clique pendant neuf secondes pleines sans jamais s'arreter en avance, et c'est ce que la macro refait. L'avertissement reste : il est ecrit une fois dans le journal, sans rien changer au deroulement. Un diagnostic ne doit pas modifier le comportement qu'il observe."
 }
