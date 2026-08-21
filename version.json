@@ -1,5 +1,5 @@
 {
-    "version": "3.07",
-    "url": "https://files.catbox.moe/jz645a.zip",
-    "notes": "Un libelle de calibrage disait le contraire de ce que fait le clic. \"Vente : ouvrir le marchand\" designait en realite la case du poisson dans la liste du marchand : ce point est clique a chaque cycle de vente, juste avant Sell / Sell All, et le marchand lui s'ouvre par le dialogue. Il s'appelle maintenant \"Vente : le poisson dans la liste (1re case)\". Rien ne change dans le fonctionnement, et la calibration deja faite sur ce point est conservee -- seule l'etiquette etait fausse."
+    "version": "3.08",
+    "url": "https://files.catbox.moe/nd47bo.zip",
+    "notes": "La macro allait au marchand, n'ouvrait pas la vente, cliquait la fermeture et repartait pecher sans avoir rien vendu. La cause : la boucle de vente s'arrete quand la liste du marchand ne contient plus de blanc (plus rien a vendre), et cette lecture se faisait UNE fois, aussitot apres les clics. Une fenetre pas encore dessinee se lisait donc comme \"plus rien a vendre\" des le premier tour. Le test ne change pas de sens, on lui laisse le temps d'etre vrai : jusqu'a 2,5 secondes, et la reponse arrive des que la liste parait. Si le premier passage ne voit toujours rien, c'est ecrit dans le journal au lieu de repartir sans un mot. Deux libelles de calibrage corriges au passage : \"Equiper la canne\" designe en realite les deux clics qui passent le dialogue du marchand, et \"Continuer le dialogue\" designe le bouton Sell Fish. Coordonnees et calibrations inchangees."
 }
