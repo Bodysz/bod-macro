@@ -1,5 +1,5 @@
 {
-    "version": "3.02",
-    "url": "https://files.catbox.moe/japi96.zip",
-    "notes": "Mise a l'echelle de l'ecran prise en charge. Le processus n'est pas declare DPI aware : a 125% Windows lui montre 1536x864 et a 150% 1280x720, or la table de peche ne connaissait que 1920x1080 -- Auto Fish refusait de partir sur un portable a 150% avec \"resolution non prise en charge\". Les deux resolutions sont ajoutees, par division exacte. Les 18 pre-configurations portent maintenant les 24 reperes de peche (seules les six 1920x1080 les avaient), et le bouton de l'onglet Auto Fish les adapte toujours a l'ecran reellement vu, quoi qu'en dise la case de l'onglet Calibrage : melanger deux espaces de coordonnees rate toutes les cibles. Enfin, le mini-jeu a demenage depuis le script d'origine, mesure sur un enregistrement en 1920x1080 : la piste est en 737..1117 / 793..806 et non 757..1161 / 762..782, et le point de lecture de la couleur tombait hors de la barre -- il lisait un gris sombre, la couleur cherchee n'etait donc jamais retrouvee et le mini-jeu cliquait sans arret."
+    "version": "3.03",
+    "url": "https://files.catbox.moe/sjkiku.zip",
+    "notes": "Un profil de peche est livre avec la macro : \"test yan\", pour un ecran 1920x1080 a 150% -- soit 1280x720 vu par la macro, le processus n'etant pas declare DPI aware. Il apparait dans l'onglet Auto Fish au premier lancement. Il est SEME, pas re-fusionne : le supprimer ou le renommer tient, un profil livre qui revient a chaque lecture serait une nuisance."
 }
