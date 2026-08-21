@@ -1,5 +1,5 @@
 {
-    "version": "3.03",
-    "url": "https://files.catbox.moe/sjkiku.zip",
-    "notes": "Un profil de peche est livre avec la macro : \"test yan\", pour un ecran 1920x1080 a 150% -- soit 1280x720 vu par la macro, le processus n'etant pas declare DPI aware. Il apparait dans l'onglet Auto Fish au premier lancement. Il est SEME, pas re-fusionne : le supprimer ou le renommer tient, un profil livre qui revient a chaque lecture serait une nuisance."
+    "version": "3.04",
+    "url": "https://files.catbox.moe/ecc77q.zip",
+    "notes": "Onglet Auto Fish remis d'aplomb. Les trois selecteurs de pre-configuration remplissaient les emplacements de la carte des profils et inversement : la carte Profils affichait \"Preset resolution\", celle de la pre-configuration affichait \"aucun profil\". Les arguments suivaient l'ordre ou je les avais ecrits, pas celui du gabarit, et quatre %s de suite acceptent n'importe quel texte sans rien dire. La pre-configuration et les points a l'ecran sont desormais dans UNE seule carte, et le titre \"Reperes a l'ecran\" ne s'affiche plus en double : l'encadre de description a disparu, sa phrase est passee dans la carte. Second profil livre, \"Bod fishSol\", avec sa configuration relue dans son settings.ini : Vip Pathing, AZERTY, 100 lancers, 56 ventes, tout vendre, auto-unequip, secours 31 et 61. \"test yan\" est inchange."
 }
