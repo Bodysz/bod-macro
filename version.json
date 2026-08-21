@@ -1,5 +1,5 @@
 {
-    "version": "3.05",
-    "url": "https://files.catbox.moe/we2gt6.zip",
-    "notes": "Les profils de peche livres apparaissent enfin. Ils n'etaient semes que si le fichier peche_profils.json n'existait PAS -- or un fichier vide, {}, existe : la condition ne se declenchait jamais et la carte Profils de peche restait desesperement a zero. Le semis se fait maintenant par NOM, en retenant ceux deja poses : un profil livre par une mise a jour arrive meme si le fichier existe, et un profil supprime ou renomme ne revient pas. Deux profils sont livres : \"test yan\" et \"Bod fishSol\"."
+    "version": "3.06",
+    "url": "https://files.catbox.moe/aqegcv.zip",
+    "notes": "Correction d'un defaut qui faussait toute la calibration de la peche. Un point pointe a la main arrivait une fois et demie trop grand, et appliquer une pre-configuration ecrasait au passage la calibration qu'on venait de faire. La cause : la macro apprend la mise a l'echelle de Windows AU DEMARRAGE et n'en change plus. La changer pendant qu'elle tourne la laissait annoncer 1280x720 pour un ecran 1080p a 150%, alors que ses captures, ses clics et son pointeur restaient en 1920x1080 : elle divisait alors les 24 reperes de peche par 1,5 (862 devenait 575). La resolution se lit maintenant sur les pixels reels du bureau, qui ne dependent d'aucun etat du processus -- changer l'echelle en cours de session ne fausse plus rien. Les deux profils de peche livres, fabriques dans cet espace fantome, sont remis en pixels reels. Si vos reperes de peche ont ete abimes par une version precedente : onglet Auto Fish, bouton Appliquer de la pre-configuration, et tout repart droit."
 }
