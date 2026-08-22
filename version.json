@@ -1,5 +1,5 @@
 {
-    "version": "3.22",
-    "url": "https://files.catbox.moe/31rwh7.zip",
-    "notes": "La recherche de salons montre enfin ses resultats. Les salons trouves restaient dans le volet de leur serveur, quelque part au milieu de la liste : il fallait redescendre les chercher. Tant qu'une recherche est en cours, seuls les serveurs deplies QUI ONT des resultats restent affiches, donc tout est en haut, sans rien faire defiler. Et si rien ne correspond, c'est ecrit plutot que de laisser une liste vide."
+    "version": "3.23",
+    "url": "https://files.catbox.moe/4zuugb.zip",
+    "notes": "Un bouton \"+\" dans l'onglet Webhook : on peut maintenant ajouter autant d'adresses qu'on veut, au lieu des deux ecrites en dur. Chaque ligne se modifie sur place et se retire d'une croix. Toutes les alertes partent vers toutes les adresses, une adresse en panne n'empeche pas les autres, et la meme adresse saisie deux fois n'envoie qu'une seule fois."
 }
