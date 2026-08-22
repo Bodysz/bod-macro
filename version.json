@@ -1,5 +1,5 @@
 {
-    "version": "3.21",
-    "url": "https://files.catbox.moe/tm1jz1.zip",
-    "notes": "L'onglet Salons du sniper ne charge plus que les SERVEURS : leurs salons s'ouvrent en volet, a la demande, une seule fois. Charger tout d'un coup demandait un appel par serveur -- des dizaines de secondes pour plus de 3000 salons. Chaque serveur porte son icone Discord pour s'y retrouver, et la recherche ne filtre que les serveurs deplies : filtrer dans ce qu'on n'a pas charge donnerait une liste qui ment. Le compte Discord associe s'affiche a cote du bouton de verification, ou \"aucun compte associe\" s'il n'y en a pas. Nouveau aussi : les statistiques (compteurs de biomes, temps de session, historique) suivent maintenant le compte, dans leur propre famille de synchronisation. La fusion prend le maximum et jamais la somme, pour qu'une synchronisation rejouee ne double rien -- deux machines en parallele ne s'additionnent donc pas, la plus avancee l'emporte."
+    "version": "3.22",
+    "url": "https://files.catbox.moe/31rwh7.zip",
+    "notes": "La recherche de salons montre enfin ses resultats. Les salons trouves restaient dans le volet de leur serveur, quelque part au milieu de la liste : il fallait redescendre les chercher. Tant qu'une recherche est en cours, seuls les serveurs deplies QUI ONT des resultats restent affiches, donc tout est en haut, sans rien faire defiler. Et si rien ne correspond, c'est ecrit plutot que de laisser une liste vide."
 }
