@@ -1,5 +1,5 @@
 {
-    "version": "3.17",
-    "url": "https://files.catbox.moe/kv2dru.zip",
-    "notes": "Le sniper dit maintenant quand RobloxDirect manque. Sans ce patch, un lien repasse par le gestionnaire Windows et il faut une dizaine de secondes pour entrer dans le serveur au lieu de huit et demie -- et rien ne l'annoncait, il fallait relire le journal apres coup pour comprendre d'ou venaient les secondes perdues. Au demarrage, le sniper regarde donc si le patch est la : s'il manque alors que les conditions ont ete acceptees, il le repose ; s'il manque toujours, il le dit avec ce que ca coute. Le journal continue de nommer la voie empruntee a chaque snipe (RobloxDirect ou gestionnaire Windows) : c'est cette ligne qui permet le diagnostic."
+    "version": "3.18",
+    "url": "https://files.catbox.moe/0r80y7.zip",
+    "notes": "Le journal du sniper dit maintenant DANS QUEL SALON chaque declenchement a eu lieu. 'Lien vu dans #salon' le disait deja, 'Declenchement sur X' non -- et c'est pourtant l'information qui tranche : un terme qui tombe dans une conversation et un terme qui tombe dans le feed sans son lien ne se corrigent pas de la meme facon. Sur un journal de quatre heures, 187 declenchements sans lien ne disaient pas d'ou ils venaient. Le snipe lui aussi nomme son salon, en plus de la voie empruntee (RobloxDirect ou gestionnaire Windows)."
 }
