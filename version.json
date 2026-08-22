@@ -1,5 +1,5 @@
 {
-    "version": "3.25",
-    "url": "https://files.catbox.moe/pw4tx2.zip",
-    "notes": "Le lien ne fait plus attendre personne. La sortie de partie part dans un fil pendant que le lien vole : mesure, le coursier de Roblox met environ 3 s a porter l'URI au client, et les 0,9 s de touches tiennent entierement dans ce battement. Resultat mesure sur une vraie partie : le join commence a l'instant meme ou l'URI arrive, contre 8,34 s pour entrer avant cette option. Quand Roblox a deja le focus -- le cas quand on joue -- le lien part sans une seule milliseconde d'attente. Pense a cocher \"Quitter la partie avant de rejoindre\" dans Sniper > Options : l'option est livree eteinte."
+    "version": "3.26",
+    "url": "https://files.catbox.moe/yzbvmz.zip",
+    "notes": "Un indicateur de sniper explicite, visible depuis les deux interfaces -- pied de la barre laterale et bouton de bascule. Quatre etats, pas deux : eteint, connexion en cours, a l'ecoute avec le nombre de salons surveilles, et DESARME. Ce dernier est le piege que l'indicateur existe pour lever : apres un snipe le sniper se desarme tout seul, il est toujours connecte mais ne rejoindra plus rien -- un simple point vert aurait continue de dire que tout va bien. La pastille est grise eteint, ambre en veille ou desarme, verte et pulsante a l'ecoute."
 }
