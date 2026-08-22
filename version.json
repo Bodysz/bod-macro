@@ -1,5 +1,5 @@
 {
-    "version": "3.23",
-    "url": "https://files.catbox.moe/4zuugb.zip",
-    "notes": "Un bouton \"+\" dans l'onglet Webhook : on peut maintenant ajouter autant d'adresses qu'on veut, au lieu des deux ecrites en dur. Chaque ligne se modifie sur place et se retire d'une croix. Toutes les alertes partent vers toutes les adresses, une adresse en panne n'empeche pas les autres, et la meme adresse saisie deux fois n'envoie qu'une seule fois."
+    "version": "3.24",
+    "url": "https://files.catbox.moe/1vadhh.zip",
+    "notes": "Le sniper rejoint deux fois et demie plus vite quand on joue deja. Nouvelle option \"Quitter la partie avant de rejoindre\" : Echap, L, Entree sont envoyes dans la fenetre du jeu juste avant le lien, pour que le client soit deja sorti quand l'URI arrive. Mesure sur une vraie partie : 8,34 s avant, 3,26 s apres. Rien n'est envoye si Roblox n'a pas le focus. Deuxieme option, plus radicale : fermer Roblox avant de rejoindre. Le sniper dit maintenant si l'entree dans le serveur a ete CONFIRMEE, et en combien de temps, en lisant le journal du client -- un lien lance qui n'aboutit pas ne passe plus inapercu. Chaque ligne du journal de la macro porte enfin son heure, et la ligne du snipe affiche ce que la chaine a coute."
 }
