@@ -1,5 +1,5 @@
 {
-    "version": "3.19",
-    "url": "https://files.catbox.moe/6ue1zr.zip",
-    "notes": "Correctif : un bouton pouvait rester bloque sur \"Envoi...\" indefiniment. Quand un appel vers Python echouait, la page ne recevait rien et le bouton restait grise -- sans qu'aucun journal ne dise pourquoi. C'est ce qui arrivait a l'enregistrement du jeton Discord. Desormais toute erreur revient a l'ecran, s'ecrit dans error_logs.txt, et le bouton repasse sur \"Reessayer\" : plus aucun bouton mort dans toute la page, pas seulement dans le sniper. Nouveau aussi : les conditions du sniper se valident une fois par un bouton et l'avertissement ne revient plus jamais ; une carte \"Connexion rapide\" apparait alors en bas de l'onglet Connexion, avec un bouton pour poser ou retirer RobloxDirect a la demande, et l'etat du patch affiche a cote."
+    "version": "3.20",
+    "url": "https://files.catbox.moe/47lx2y.zip",
+    "notes": "Trois correctifs, tous vus en jeu. (1) Les onglets ne repondaient plus des qu'on avait bascule entre la Macro et le Sniper : les clics d'onglets n'etaient lies qu'au demarrage, et remplacer la barre laterale les perdait. Ils sont maintenant delegues, donc indestructibles. (2) L'enregistrement du jeton Discord echouait avec une erreur interne ; la cause est corrigee et, surtout, toute erreur s'affiche desormais au lieu de laisser un bouton bloque. (3) Avec le patch installe, cliquer un lien de serveur dans le navigateur faisait quitter la partie sans jamais rejoindre : les liens de roblox.com arrivent sous une forme minimale que le client accepte puis abandonne en silence. RobloxDirect les complete maintenant avant de les transmettre, exactement comme le fait le sniper. La mise a jour laisse aussi une trace a chaque etape dans le journal."
 }
