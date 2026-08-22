@@ -1,5 +1,5 @@
 {
-    "version": "3.16",
-    "url": "https://files.catbox.moe/m3gtuh.zip",
-    "notes": "Correctif urgent de la 3.15. La fenetre s'ouvrait vide : \"undefined\" a la place de la barre laterale ET du contenu. Une erreur de syntaxe s'etait glissee dans le JavaScript de la page, et un bloc de script qui ne se lit pas ne s'execute pas du tout -- rien ne se construisait. La cause : des guillemets echappes pour JavaScript, avales par la coquille avant que le navigateur ne les voie. Les valeurs passent maintenant par des attributs, sans aucun guillemet imbrique. La bascule d'univers affiche aussi son panneau elle-meme : elle changeait la barre laterale sans que le contenu suive. Et surtout, un controle manquait : la suite lit desormais le JavaScript de la page avec Node et refuse de passer s'il ne se lit pas. Rien d'autre n'a change depuis la 3.15."
+    "version": "3.17",
+    "url": "https://files.catbox.moe/kv2dru.zip",
+    "notes": "Le sniper dit maintenant quand RobloxDirect manque. Sans ce patch, un lien repasse par le gestionnaire Windows et il faut une dizaine de secondes pour entrer dans le serveur au lieu de huit et demie -- et rien ne l'annoncait, il fallait relire le journal apres coup pour comprendre d'ou venaient les secondes perdues. Au demarrage, le sniper regarde donc si le patch est la : s'il manque alors que les conditions ont ete acceptees, il le repose ; s'il manque toujours, il le dit avec ce que ca coute. Le journal continue de nommer la voie empruntee a chaque snipe (RobloxDirect ou gestionnaire Windows) : c'est cette ligne qui permet le diagnostic."
 }
