@@ -1,5 +1,5 @@
 {
-    "version": "3.30",
-    "url": "https://files.catbox.moe/f8jd6m.zip",
-    "notes": "Le champ \"private server link\" de l'onglet Webhook s'enregistre maintenant des qu'on le modifie. Sans ca, le bouton du Dashboard rejoignait la valeur ENREGISTREE pendant que le champ en affichait une autre, sans que rien ne le signale -- le bouton semblait rejoindre un ancien serveur. Et il nomme desormais le serveur qu'il lance, dans le message comme dans le journal, pour qu'un tel ecart ne puisse plus passer inapercu."
+    "version": "3.31",
+    "url": "https://files.catbox.moe/1zwkqe.zip",
+    "notes": "L'ensemble des salons surveilles etait reconstruit a CHAQUE message recu : 0,001 ms pour 7 salons, mais 0,458 ms pour 3314, alors que la comparaison elle-meme coute 0,00004 ms quel que soit le nombre. Il est desormais bati une seule fois et refait uniquement quand la liste change. A savoir : le sniper ne scrute rien, les messages arrivent pousses par la passerelle Discord -- ajouter des salons ne retarde donc pas la detection, ca ajoutait seulement ce travail inutile par message."
 }
