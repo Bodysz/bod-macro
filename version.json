@@ -1,5 +1,5 @@
 {
-    "version": "3.27",
-    "url": "https://files.catbox.moe/0999fd.zip",
-    "notes": "Le sniper prend maintenant le chemin le plus court jusqu'au client : quand une partie de Roblox tourne, le lien va DIRECTEMENT a son binaire, au lieu de demarrer RobloxDirect qui n'aurait fait que retrouver la meme reponse (il garde tout son role pour les liens cliques a la main). La sortie de partie tente d'abord une cadence courte, VERIFIE dans le journal du client qu'elle a bien eu lieu, et recommence posement sinon -- et le dit quand elle n'a pas abouti. Mesure en alternance sur six manches, memes serveurs, meme machine : 3,1 s pour entrer dans le serveur, contre 4,45 s au sniper auquel il a ete compare. Le debut du join tombe a l'instant ou l'URI arrive."
+    "version": "3.28",
+    "url": "https://files.catbox.moe/cesexu.zip",
+    "notes": "Un bouton \"Rejoindre mon serveur\" dans la carte d'etat du Dashboard, a cote de Start. Il rejoint le serveur prive configure dans l'onglet Webhook -- ce lien ne servait jusqu'ici qu'a etre publie dans les alertes. Il emprunte exactement le chemin du sniper : forme complete du lien, binaire du client appele directement, sortie de partie si l'option est cochee, et l'entree confirmee dans le journal du client. Ce qui est affiche dans le champ l'emporte sur ce qui est enregistre : un lien colle se rejoint sans avoir a enregistrer d'abord."
 }
