@@ -1,5 +1,5 @@
 {
-    "version": "3.26",
-    "url": "https://files.catbox.moe/yzbvmz.zip",
-    "notes": "Un indicateur de sniper explicite, visible depuis les deux interfaces -- pied de la barre laterale et bouton de bascule. Quatre etats, pas deux : eteint, connexion en cours, a l'ecoute avec le nombre de salons surveilles, et DESARME. Ce dernier est le piege que l'indicateur existe pour lever : apres un snipe le sniper se desarme tout seul, il est toujours connecte mais ne rejoindra plus rien -- un simple point vert aurait continue de dire que tout va bien. La pastille est grise eteint, ambre en veille ou desarme, verte et pulsante a l'ecoute."
+    "version": "3.27",
+    "url": "https://files.catbox.moe/0999fd.zip",
+    "notes": "Le sniper prend maintenant le chemin le plus court jusqu'au client : quand une partie de Roblox tourne, le lien va DIRECTEMENT a son binaire, au lieu de demarrer RobloxDirect qui n'aurait fait que retrouver la meme reponse (il garde tout son role pour les liens cliques a la main). La sortie de partie tente d'abord une cadence courte, VERIFIE dans le journal du client qu'elle a bien eu lieu, et recommence posement sinon -- et le dit quand elle n'a pas abouti. Mesure en alternance sur six manches, memes serveurs, meme machine : 3,1 s pour entrer dans le serveur, contre 4,45 s au sniper auquel il a ete compare. Le debut du join tombe a l'instant ou l'URI arrive."
 }
