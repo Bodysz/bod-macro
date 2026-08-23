@@ -1,5 +1,5 @@
 {
-    "version": "3.31",
-    "url": "https://files.catbox.moe/1zwkqe.zip",
-    "notes": "L'ensemble des salons surveilles etait reconstruit a CHAQUE message recu : 0,001 ms pour 7 salons, mais 0,458 ms pour 3314, alors que la comparaison elle-meme coute 0,00004 ms quel que soit le nombre. Il est desormais bati une seule fois et refait uniquement quand la liste change. A savoir : le sniper ne scrute rien, les messages arrivent pousses par la passerelle Discord -- ajouter des salons ne retarde donc pas la detection, ca ajoutait seulement ce travail inutile par message."
+    "version": "3.32",
+    "url": "https://files.catbox.moe/jrb2mn.zip",
+    "notes": "Eden a maintenant son propre webhook, dans l'onglet Eden. Ses alertes et ses enregistrements ne partent plus vers les adresses de l'onglet Webhook, et celles-ci ne recoivent rien d'Eden : la separation vaut dans les deux sens, et sans repli -- un champ vide veut dire qu'Eden n'envoie rien, et la surveillance le dit des son demarrage au lieu d'attendre la premiere detection. Un bouton Tester dedie est a cote du champ. Corrige au passage un defaut qui ne s'annoncait pas : changer n'importe quel reglage d'Eden (le seuil, l'intervalle, la pause...) eteignait sa surveillance, parce qu'elle etait arretee puis relancee alors que le fil precedent n'avait pas encore rendu la main. Seul l'interrupteur la relance desormais."
 }
