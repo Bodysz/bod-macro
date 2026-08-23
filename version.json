@@ -1,5 +1,5 @@
 {
-    "version": "3.29",
-    "url": "https://files.catbox.moe/v1vfge.zip",
-    "notes": "Correctif d'affichage : les interrupteurs des deux premieres options du sniper etaient deformes. `.toggle-switch` n'avait pas de flex-shrink:0 -- des qu'une description passait sur deux lignes, le texte prenait la place et la pastille etait comprimee, le rail retrecissant pendant que le rond gardait sa taille. La troisieme option allait bien parce que sa description tenait sur une ligne. Un test garde desormais la regle, sur la source ET sur le build livre : ce genre de defaut revient des qu'on rallonge une phrase."
+    "version": "3.30",
+    "url": "https://files.catbox.moe/f8jd6m.zip",
+    "notes": "Le champ \"private server link\" de l'onglet Webhook s'enregistre maintenant des qu'on le modifie. Sans ca, le bouton du Dashboard rejoignait la valeur ENREGISTREE pendant que le champ en affichait une autre, sans que rien ne le signale -- le bouton semblait rejoindre un ancien serveur. Et il nomme desormais le serveur qu'il lance, dans le message comme dans le journal, pour qu'un tel ecart ne puisse plus passer inapercu."
 }
