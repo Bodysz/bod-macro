@@ -1,5 +1,5 @@
 {
-    "version": "3.36",
-    "url": "https://files.catbox.moe/632l98.zip",
-    "notes": "Le choix du Roblox change de place : il est desormais dans le Dashboard pour la macro, et dans l'onglet Connexion pour le sniper -- la ou on le regarde avant de lancer. Rien d'autre n'a bouge de ce cote : le menu, la liste des Roblox ouverts et les boutons du gestionnaire de liens sont simplement la maintenant. L'anti-AFK ecrit enfin ce qu'il fait dans le journal. Il ne disait rien quand il AGISSAIT, seulement quand il s'abstenait : impossible de verifier qu'il tourne sans rester devant l'ecran. Il n'etait pas casse -- verifie sur une vraie machine, il vise bien la fenetre du client Microsoft Store -- mais rien ne permettait de s'en assurer. Coche-le, attends l'intervalle, et la ligne apparaitra."
+    "version": "3.37",
+    "url": "https://files.catbox.moe/w9a3h7.zip",
+    "notes": "La carte du choix de Roblox est refaite, plus simple. Un seul menu : les trois installations (Automatique, Roblox Player, Microsoft Store) ET les Roblox actuellement ouverts, a la suite. Un bouton pour les redetecter. Avant, il fallait comprendre deux mecanismes pour un seul choix -- un menu d'un cote, une liste d'instances a suivre de l'autre -- et trois paragraphes pour l'expliquer. Les boutons du gestionnaire de liens (pour tes clics manuels) sont toujours la, replies dans 'avance'."
 }
