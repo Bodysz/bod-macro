@@ -1,5 +1,5 @@
 {
-    "version": "3.28",
-    "url": "https://files.catbox.moe/cesexu.zip",
-    "notes": "Un bouton \"Rejoindre mon serveur\" dans la carte d'etat du Dashboard, a cote de Start. Il rejoint le serveur prive configure dans l'onglet Webhook -- ce lien ne servait jusqu'ici qu'a etre publie dans les alertes. Il emprunte exactement le chemin du sniper : forme complete du lien, binaire du client appele directement, sortie de partie si l'option est cochee, et l'entree confirmee dans le journal du client. Ce qui est affiche dans le champ l'emporte sur ce qui est enregistre : un lien colle se rejoint sans avoir a enregistrer d'abord."
+    "version": "3.29",
+    "url": "https://files.catbox.moe/v1vfge.zip",
+    "notes": "Correctif d'affichage : les interrupteurs des deux premieres options du sniper etaient deformes. `.toggle-switch` n'avait pas de flex-shrink:0 -- des qu'une description passait sur deux lignes, le texte prenait la place et la pastille etait comprimee, le rail retrecissant pendant que le rond gardait sa taille. La troisieme option allait bien parce que sa description tenait sur une ligne. Un test garde desormais la regle, sur la source ET sur le build livre : ce genre de defaut revient des qu'on rallonge une phrase."
 }
