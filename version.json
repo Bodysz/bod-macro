@@ -1,5 +1,5 @@
 {
-    "version": "3.44",
-    "url": "https://files.catbox.moe/ucb87t.zip",
-    "notes": "Deux defauts d'affichage corriges.\n\nL'animation de changement d'onglet se jouait DEUX fois. Deux gestionnaires repondaient au meme clic : celui pose sur chaque onglet, et un ecouteur general ajoute plus tard parce que le premier disparaissait quand on bascule entre la macro et le sniper. Chacun refaisait le panneau et relancait le fondu. Un seul repond desormais.\n\nLa pastille verte/rouge n'arrivait jamais dans la barre des taches. Les icones etaient pourtant bonnes : le probleme etait qu'on notait l'icone comme posee AVANT de la poser. Au demarrage la fenetre n'existe pas encore, la pose echouait, et comme c'etait deja marque comme fait on ne reessayait jamais -- Windows gardait l'icone de base, celle sans pastille. Elle est maintenant reposee tant qu'elle n'a atteint aucune fenetre."
+    "version": "3.45",
+    "url": "https://files.catbox.moe/hddvq5.zip",
+    "notes": "La pastille verte/rouge arrive enfin dans la barre des taches.\n\nLa 3.44 posait bien l'icone marquee SUR LA FENETRE -- c'est verifie, elle y etait -- mais Windows 11 n'affiche pas cette icone-la dans sa barre des taches : il y montre celle de l'executable, sans pastille. Le seul canal qu'il honore est celui du badge \"9+\" de Discord (ITaskbarList3). La pastille passe desormais par lui : mesure sur la barre, 0 pixel vert avant, 108 apres.\n\nElle apparait aussi des l'ouverture, sans attendre un premier demarrage, et elle est reposee tant qu'elle n'a atteint aucune fenetre. Si jamais elle n'y arrive pas, le journal le dit une fois -- une barre muette ressemblait trop a une pastille cassee."
 }
