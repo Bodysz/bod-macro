@@ -1,5 +1,5 @@
 {
-    "version": "3.50",
-    "url": "https://files.catbox.moe/4n9uvu.zip",
-    "notes": "Le mini-jeu de la peche clique de nouveau.\n\nNotre point de lecture de la couleur de la barre, et la bande ou on la cherche, venaient d'une remesure faite sur une VIDEO de la partie. Ils tombaient tous les deux a cote de la barre : la couleur relevee etait celle du fond, on la retrouvait donc partout -- et comme le mini-jeu ne clique QUE lorsqu'il ne la trouve pas, il ne cliquait plus jamais. La morsure, elle, etait bien detectee : c'est un autre repere, et il etait juste.\n\nLes trois tables reprennent les valeurs du script d'origine, chacune la sienne (1920x1080, 2560x1440, 1366x768), et la tolerance de couleur passe de 12 a 5 -- la sienne. Une tolerance trop large retrouve la couleur ailleurs que sur la barre, ce qui supprime les clics par le meme mecanisme.\n\nLes trois profils livres portaient aussi l'ancien couple : corriges."
+    "version": "3.51",
+    "url": "https://files.catbox.moe/smi2lf.zip",
+    "notes": "Le voyage au marchand ignorait le mode Abyssal.\n\nLe choix du trajet etait ecrit \"vip, sinon non vip\" : tout ce qui n'etait pas VIP devenait Non VIP. L'abyssal, ajoute a la table en 3.40, n'a jamais ete reconnu la -- il partait vendre et surtout revenait avec les pas du Non VIP, dont la marche de retour dure 3300 ms contre 1760. Presque le double : on depassait le bord, on tombait a l'eau, on reapparaissait au spawn, et le cycle enchainait comme s'il etait revenu a sa place.\n\nL'aller passait quand meme parce que la macro regarde la liste du marchand avant d'entrer et represse le bouton ; le retour, lui, ne verifie rien, et c'est lui qui a paye.\n\nUn mode de trajet inconnu est maintenant journalise au lieu d'etre remplace en silence."
 }
