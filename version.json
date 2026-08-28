@@ -1,5 +1,5 @@
 {
-    "version": "3.52",
-    "url": "https://files.catbox.moe/yi058g.zip",
-    "notes": "Aucun menu deroulant n'atteignait Python.\n\napp.js recable `onclick` sur chaque option de menu a chaque affichage : il ecrasait celui que la page posait pour appeler la macro. Cliquer une valeur changeait donc le libelle affiche et n'enregistrait rien -- au rafraichissement suivant du panneau, l'ancienne valeur revenait. Le mode de trajet de la peche etait impossible a changer, et avec lui la resolution, l'echelle, le mode Roblox, l'action anti-AFK, le choix du client, et tous les autres menus.\n\nLe geste vit maintenant dans des attributs de donnees, que rien ne peut ecraser, et la page les ecoute en capture -- sans empecher l'affichage du menu de se faire.\n\nUn test parcourt desormais toutes les options de tous les panneaux et refuse qu'une seule repasse par un onclick."
+    "version": "3.53",
+    "url": "https://files.catbox.moe/5sbzzx.zip",
+    "notes": "Une transition entre les deux univers.\n\nPasser de la macro au sniper joue maintenant un balayage diagonal plein ecran d'une demi-seconde, avec le nom de l'univers d'arrivee. Le sens du balayage dit ou l'on va.\n\nL'animation ne commande rien : la bascule reste instantanee comme avant, et le voile passe par-dessus un changement deja fait. S'il ne part pas, on a change d'univers quand meme. Il ne prend aucun clic, et il s'efface meme si l'animation ne se termine jamais."
 }
