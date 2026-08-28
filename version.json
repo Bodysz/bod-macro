@@ -1,5 +1,5 @@
 {
-    "version": "3.51",
-    "url": "https://files.catbox.moe/smi2lf.zip",
-    "notes": "Le voyage au marchand ignorait le mode Abyssal.\n\nLe choix du trajet etait ecrit \"vip, sinon non vip\" : tout ce qui n'etait pas VIP devenait Non VIP. L'abyssal, ajoute a la table en 3.40, n'a jamais ete reconnu la -- il partait vendre et surtout revenait avec les pas du Non VIP, dont la marche de retour dure 3300 ms contre 1760. Presque le double : on depassait le bord, on tombait a l'eau, on reapparaissait au spawn, et le cycle enchainait comme s'il etait revenu a sa place.\n\nL'aller passait quand meme parce que la macro regarde la liste du marchand avant d'entrer et represse le bouton ; le retour, lui, ne verifie rien, et c'est lui qui a paye.\n\nUn mode de trajet inconnu est maintenant journalise au lieu d'etre remplace en silence."
+    "version": "3.52",
+    "url": "https://files.catbox.moe/yi058g.zip",
+    "notes": "Aucun menu deroulant n'atteignait Python.\n\napp.js recable `onclick` sur chaque option de menu a chaque affichage : il ecrasait celui que la page posait pour appeler la macro. Cliquer une valeur changeait donc le libelle affiche et n'enregistrait rien -- au rafraichissement suivant du panneau, l'ancienne valeur revenait. Le mode de trajet de la peche etait impossible a changer, et avec lui la resolution, l'echelle, le mode Roblox, l'action anti-AFK, le choix du client, et tous les autres menus.\n\nLe geste vit maintenant dans des attributs de donnees, que rien ne peut ecraser, et la page les ecoute en capture -- sans empecher l'affichage du menu de se faire.\n\nUn test parcourt desormais toutes les options de tous les panneaux et refuse qu'une seule repasse par un onclick."
 }
