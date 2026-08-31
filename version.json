@@ -1,5 +1,5 @@
 {
-    "version": "3.59",
-    "url": "https://files.catbox.moe/tercpm.zip",
-    "notes": "Un nouvel onglet : Comptes Roblox.\n\nConnecte plusieurs comptes Roblox et lance le jeu avec celui que tu veux, directement dans ton serveur prive -- celui de l'onglet Webhook. L'onglet est en tete de la barre.\n\nAucun mot de passe ne t'est demande ni enregistre : tu te connectes sur la page de Roblox elle-meme, dans une fenetre a part, donc le 2FA et le captcha marchent normalement. Seule la session obtenue est gardee, chiffree par Windows pour ton compte Windows, et elle n'est envoyee nulle part -- ni a nous, ni au serveur de comptes de la macro.\n\nRoblox n'accepte qu'un seul client a la fois : si un Roblox Player tourne deja, le lancement s'arrete et te le dit, au lieu de rejoindre sous le mauvais compte sans prevenir.\n\nSeul Roblox Player est gere ; la version Microsoft Store ne se lance pas de cette facon."
+    "version": "3.60",
+    "url": "https://files.catbox.moe/2pn13f.zip",
+    "notes": "L'onglet Comptes Roblox se rejoint depuis la barre du haut.\n\nSon bouton est desormais dans l'en-tete, a cote de celui du compte, au lieu d'une entree dans la barre laterale. C'est le seul changement de cette version : la macro s'ouvre toujours sur le tableau de bord.\n\nRappel de la 3.59, pour ceux qui arrivent des deux versions d'un coup : cet onglet connecte plusieurs comptes Roblox et lance le jeu avec celui que tu veux, directement dans ton serveur prive. Aucun mot de passe ne t'est demande ni enregistre -- tu te connectes sur la page de Roblox elle-meme, dans une fenetre a part. Seule la session obtenue est gardee, chiffree par Windows pour ton compte Windows. Seul Roblox Player est gere."
 }
