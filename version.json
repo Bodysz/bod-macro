@@ -1,5 +1,5 @@
 {
-    "version": "3.61",
-    "url": "https://files.catbox.moe/wouxsf.zip",
-    "notes": "Deux corrections d'affichage sur la carte \"Rejoindre un autre serveur\", au tableau de bord.\n\nLe champ ou l'on colle le lien s'affichait en BLANC au milieu d'une interface sombre : il n'etait pas habille du tout.\n\nEt la carte etait si haute qu'elle etirait la carte \"Session en cours\" juste a cote, qui prenait sa hauteur pour rien. La carte est maintenant compacte -- le menu du Roblox est passe a cote du titre -- et une carte de session garde sa propre hauteur.\n\nRien d'autre ne change : meme boutons, meme fonctionnement."
+    "version": "3.62",
+    "url": "https://files.catbox.moe/k44279.zip",
+    "notes": "Le lancement d'un compte ne se bloque plus quand tu fais tourner un outil multi-instance.\n\nL'onglet Comptes Roblox refusait de lancer des qu'un Roblox Player etait ouvert, parce que Roblox n'accepte normalement qu'un seul client : notre lancement aurait parle a celui qui tournait, deja connecte sous un autre compte.\n\nMais quand un outil comme MultipleRobloxInstances ou Voidstrap confisque le verrou de Roblox, cette supposition est fausse -- et refuser revenait a decider a ta place. Le lancement passe desormais, avec un message qui dit quoi verifier : que la fenetre qui s'ouvre soit bien celle du compte demande.\n\nSans un de ces outils, le refus reste : Bloxstrap et Fishstrap ne comptent pas, ils tournent chez presque tout le monde et ne disent rien du multi-instance."
 }
