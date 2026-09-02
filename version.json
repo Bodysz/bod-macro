@@ -1,5 +1,5 @@
 {
-    "version": "4.10",
-    "url": "https://files.catbox.moe/idxtv4.zip",
-    "notes": "Le suivi de peche sur Discord ne s'arrete plus au premier hoquet.\n\nUne panne passagere du cote de Discord suffisait a mettre fin a la session : le tableau etait remplace par un bilan alors que la peche continuait, parfois des heures. Ces pannes se reessaient maintenant, le journal dit quand ca coince et quand ca repart, et le bilan ne s'affiche plus que sur un arret demande.\n\nLe bouton de mise a jour attend la vraie reponse. Il abandonnait avant la fin de la verification et annoncait alors « A jour » sans que le serveur ait rien dit. Un second clic verifie pour de bon au lieu de repeter la reponse precedente, et une coupure reseau n'efface plus une mise a jour deja trouvee."
+    "version": "4.11",
+    "url": "https://files.catbox.moe/9cvwow.zip",
+    "notes": "Le bandeau de mise a jour montre enfin ce qu'il fait.\n\nCliquer sur « Mettre a jour » ne donnait aucun signe pendant une minute et demie, le temps du telechargement : on avait toutes les raisons de croire que rien ne se passait. Le bandeau affiche maintenant l'etape en cours et sa progression, du telechargement au redemarrage.\n\nIl dit aussi ce que la version apporte, avant qu'on la prenne, et il ne recouvre plus le haut de l'interface : la page descend dessous.\n\nEnfin, une mise a jour qui echoue le dit sur le bandeau, la ou on vient de cliquer, avec un bouton pour reessayer."
 }
