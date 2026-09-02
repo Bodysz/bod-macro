@@ -1,5 +1,5 @@
 {
-    "version": "4.11",
-    "url": "https://files.catbox.moe/9cvwow.zip",
-    "notes": "Le bandeau de mise a jour montre enfin ce qu'il fait.\n\nCliquer sur « Mettre a jour » ne donnait aucun signe pendant une minute et demie, le temps du telechargement : on avait toutes les raisons de croire que rien ne se passait. Le bandeau affiche maintenant l'etape en cours et sa progression, du telechargement au redemarrage.\n\nIl dit aussi ce que la version apporte, avant qu'on la prenne, et il ne recouvre plus le haut de l'interface : la page descend dessous.\n\nEnfin, une mise a jour qui echoue le dit sur le bandeau, la ou on vient de cliquer, avec un bouton pour reessayer."
+    "version": "4.20",
+    "url": "https://files.catbox.moe/mutpq1.zip",
+    "notes": "La macro s'appelle desormais Arctantique Macro.\n\nLe dossier d'installation, l'executable et le dossier de donnees prennent ce nom tout seuls : au premier lancement, la macro se ferme, se renomme et se relance. Tes reglages, tes profils, tes comptes et ta calibration sont repris tels quels.\n\nUne seule chose ne peut pas suivre : ton raccourci sur le bureau, qui pointe encore l'ancien chemin. Refais le une fois apres la mise a jour.\n\nTidal Shifter Potion rejoint les potions de l'auto pop.\n\nCote code, deux mille lignes en moins pour exactement la meme chose, et le chemin des donnees n'est plus calcule qu'a un seul endroit."
 }
