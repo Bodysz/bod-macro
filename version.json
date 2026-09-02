@@ -1,5 +1,5 @@
 {
-    "version": "3.71",
-    "url": "https://files.catbox.moe/sicaac.zip",
-    "notes": "Beaucoup moins de texte a l'ecran.\n\nLes explications sous chaque option ont ete retirees des trois quarts des reglages : elles repetaient le plus souvent le nom du reglage juste au-dessus. Six onglets n'en ont plus aucune. Celles qui restent sont celles qui evitent une erreur -- le piege des deux minuteries d'objets, le trajet de peche qui ne se corrige pas, les conditions du sniper, ce qu'il advient de tes mots de passe et de tes sessions.\n\nL'onglet Auto Fish y gagne le plus : ses chiffres de session ne s'affichent plus dans la page -- ils vont sur le jeu et dans un message prive Discord -- et les deux interrupteurs sont replies.\n\nAucun reglage n'a change de place ni de comportement. C'est un menage visuel, rien d'autre."
+    "version": "3.72",
+    "url": "https://files.catbox.moe/ntvzp2.zip",
+    "notes": "Le suivi Discord ne ralentit plus pour toute la nuit.\n\nQuand Discord demandait une pause, la mise a jour de l'embed ralentissait -- et ne revenait JAMAIS a son rythme. Un seul hoquet a 3 h du matin suffisait a la faire monter jusqu'a une minute entre deux actualisations, et le journal ne le disait qu'une fois. Elle se rend maintenant toute seule des que Discord se calme, et chaque changement est ecrit.\n\nEt une session de peche = un embed. Chaque fois que tu lances la peche, un nouveau message est cree ; quand tu l'arretes, le bilan vient prendre la place du tableau de CETTE session, au lieu d'un second message a cote. Tes nuits restent donc dans la conversation, une par message.\n\nRien d'autre n'a change."
 }
