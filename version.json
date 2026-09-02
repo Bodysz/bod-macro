@@ -1,5 +1,5 @@
 {
-    "version": "3.62",
-    "url": "https://files.catbox.moe/k44279.zip",
-    "notes": "Le lancement d'un compte ne se bloque plus quand tu fais tourner un outil multi-instance.\n\nL'onglet Comptes Roblox refusait de lancer des qu'un Roblox Player etait ouvert, parce que Roblox n'accepte normalement qu'un seul client : notre lancement aurait parle a celui qui tournait, deja connecte sous un autre compte.\n\nMais quand un outil comme MultipleRobloxInstances ou Voidstrap confisque le verrou de Roblox, cette supposition est fausse -- et refuser revenait a decider a ta place. Le lancement passe desormais, avec un message qui dit quoi verifier : que la fenetre qui s'ouvre soit bien celle du compte demande.\n\nSans un de ces outils, le refus reste : Bloxstrap et Fishstrap ne comptent pas, ils tournent chez presque tout le monde et ne disent rien du multi-instance."
+    "version": "3.71",
+    "url": "https://files.catbox.moe/sicaac.zip",
+    "notes": "Beaucoup moins de texte a l'ecran.\n\nLes explications sous chaque option ont ete retirees des trois quarts des reglages : elles repetaient le plus souvent le nom du reglage juste au-dessus. Six onglets n'en ont plus aucune. Celles qui restent sont celles qui evitent une erreur -- le piege des deux minuteries d'objets, le trajet de peche qui ne se corrige pas, les conditions du sniper, ce qu'il advient de tes mots de passe et de tes sessions.\n\nL'onglet Auto Fish y gagne le plus : ses chiffres de session ne s'affichent plus dans la page -- ils vont sur le jeu et dans un message prive Discord -- et les deux interrupteurs sont replies.\n\nAucun reglage n'a change de place ni de comportement. C'est un menage visuel, rien d'autre."
 }
