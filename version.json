@@ -1,5 +1,5 @@
 {
-    "version": "4.20",
-    "url": "https://files.catbox.moe/mutpq1.zip",
-    "notes": "La macro s'appelle desormais Arctantique Macro.\n\nLe dossier d'installation, l'executable et le dossier de donnees prennent ce nom tout seuls : au premier lancement, la macro se ferme, se renomme et se relance. Tes reglages, tes profils, tes comptes et ta calibration sont repris tels quels.\n\nUne seule chose ne peut pas suivre : ton raccourci sur le bureau, qui pointe encore l'ancien chemin. Refais le une fois apres la mise a jour.\n\nTidal Shifter Potion rejoint les potions de l'auto pop.\n\nCote code, deux mille lignes en moins pour exactement la meme chose, et le chemin des donnees n'est plus calcule qu'a un seul endroit."
+    "version": "4.21",
+    "url": "https://files.catbox.moe/bhl0qb.zip",
+    "notes": "Correctif du renommage introduit en 4.20.\n\nChez certains, l'executable prenait son nouveau nom mais pas le dossier, et la macro ne se relancait plus : Windows annoncait qu'il ne trouvait pas l'ancien chemin. Le renommage du dossier se retente maintenant plusieurs fois, parce qu'il peut rester tenu quelques secondes apres la fermeture, et la macro repart de la ou elle se trouve au lieu de chercher un chemin qui n'existe plus.\n\nSi tu as vu cette erreur, cette mise a jour la repare toute seule."
 }
