@@ -1,5 +1,5 @@
 {
-    "version": "4.22",
-    "url": "https://files.catbox.moe/o43bqf.zip",
-    "notes": "Le dossier prend enfin son nouveau nom.\n\nLes deux versions precedentes essayaient de renommer le dossier lui-meme, ce que Windows refuse tant qu'il le garde ouvert, et il le garde souvent plusieurs minutes apres une mise a jour. Le contenu est maintenant deplace fichier par fichier, ce qui passe.\n\nUn seul point d'etat sur l'icone au lieu de deux : il etait dessine a la fois dans l'icone et dans la barre des taches.\n\nEt la reprise de tes reglages est desormais tout ou rien : si elle est interrompue, la macro continue dans l'ancien dossier au lieu d'en laisser un a moitie rempli."
+    "version": "4.23",
+    "url": "https://files.catbox.moe/cnzs7v.zip",
+    "notes": "Le journal de la macro repart a cote de l'executable.\n\nDepuis le renommage il s'ecrivait dans le dossier temporaire de Windows, que le systeme vide de temps en temps : les traces disparaissaient toutes seules.\n\nEt la mise en place en un bouton reconnait Multiple Roblox Instances meme s'il est range ailleurs ou renomme, et ne le relance pas quand il tourne deja."
 }
