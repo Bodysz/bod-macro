@@ -1,5 +1,5 @@
 {
-    "version": "4.21",
-    "url": "https://files.catbox.moe/bhl0qb.zip",
-    "notes": "Correctif du renommage introduit en 4.20.\n\nChez certains, l'executable prenait son nouveau nom mais pas le dossier, et la macro ne se relancait plus : Windows annoncait qu'il ne trouvait pas l'ancien chemin. Le renommage du dossier se retente maintenant plusieurs fois, parce qu'il peut rester tenu quelques secondes apres la fermeture, et la macro repart de la ou elle se trouve au lieu de chercher un chemin qui n'existe plus.\n\nSi tu as vu cette erreur, cette mise a jour la repare toute seule."
+    "version": "4.22",
+    "url": "https://files.catbox.moe/o43bqf.zip",
+    "notes": "Le dossier prend enfin son nouveau nom.\n\nLes deux versions precedentes essayaient de renommer le dossier lui-meme, ce que Windows refuse tant qu'il le garde ouvert, et il le garde souvent plusieurs minutes apres une mise a jour. Le contenu est maintenant deplace fichier par fichier, ce qui passe.\n\nUn seul point d'etat sur l'icone au lieu de deux : il etait dessine a la fois dans l'icone et dans la barre des taches.\n\nEt la reprise de tes reglages est desormais tout ou rien : si elle est interrompue, la macro continue dans l'ancien dossier au lieu d'en laisser un a moitie rempli."
 }
