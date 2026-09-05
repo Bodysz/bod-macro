@@ -1,5 +1,5 @@
 {
-    "version": "4.24",
-    "url": "https://files.catbox.moe/hex8jj.zip",
-    "notes": "Le voyage au marchand ratait par intermittence.\n\nLe retrait de l'aura se fait par deux clics au meme endroit, et la macro n'attendait que la moitie du temps que laisse EggSol. Quand le second clic etait avale par l'animation, un panneau restait ouvert, le personnage ne reapparaissait pas, et le trajet partait du coin de peche au lieu du point de depart : on s'arretait avant l'etal.\n\nLe journal peut aussi noter si la reapparition a bien eu lieu."
+    "version": "4.27",
+    "url": "https://files.catbox.moe/uui363.zip",
+    "notes": "Le biome Incinerator est detecte.\n\nLe jeu l'ecrivait deja comme les autres, mais il ne figurait pas au catalogue des biomes. La macro remontait alors le journal jusqu'au biome connu precedent et restait dessus pendant tout le passage de l'Incinerator : aucune notification, aucune potion, aucun compteur.\n\nIl notifie par defaut, comme les autres biomes standards, et ne pingue personne."
 }
