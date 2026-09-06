@@ -1,5 +1,5 @@
 {
-    "version": "4.29",
-    "url": "https://files.catbox.moe/867oix.zip",
-    "notes": "La macro n'a plus besoin de Multiple Roblox Instances.\n\nLa mise en place prend le verrou multi Roblox elle meme, avec ses propres moyens. Multiple Roblox Instances reste un repli, utilise seulement si le verrou ne se prend pas.\n\nPourquoi : cet outil fuit environ 874 Mo par heure, mesure sur 40 echantillons. Il ecoute tous les demarrages de processus de Windows et ne rend jamais ce que le systeme lui donne. Sur une longue session la memoire se remplit, Windows se met a echanger sur le disque, et toute la machine ralentit, pas seulement lui.\n\nSi rien n'est trouve au moment du repli, le journal dit desormais dans quels dossiers il a cherche."
+    "version": "4.30",
+    "url": "https://files.catbox.moe/usihjy.zip",
+    "notes": "Un onglet Summer Event, repris de FishSol 1.9.9-1.\n\nLa macro traverse l'ocean, ramasse les objets d'ete, puis revient pecher. Elle equipe l'aura flottante que tu choisis parmi 24, presse la touche de ramassage pendant toute la traversee, et peut arreter les rolls le temps du trajet pour ne pas se faire changer d'aura au milieu de l'eau.\n\nL'intervalle est reglable : 15 minutes pour le plus d'objets, 0 pour enchainer sans attendre. Le trajet suit le mode choisi dans l'onglet Auto Fish, et il existe pour les trois : serveur prive, serveur public, Abyssal.\n\nA savoir : le trajet dure entre 4 et 7 minutes selon le mode, pendant lesquelles la peche s'arrete. Il part eteint. Essaie le une premiere fois en regardant l'ecran avant de le laisser tourner la nuit."
 }
