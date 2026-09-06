@@ -1,5 +1,5 @@
 {
-    "version": "4.31",
-    "url": "https://files.catbox.moe/tgqvm0.zip",
-    "notes": "Summer Event vit maintenant DANS l'onglet Auto Fish, et plus a cote. La marche ne part que pendant la peche : un onglet a part laissait croire qu'elle tournait toute seule.\n\nElle commence desormais par une reapparition, comme dans FishSol. Sans elle, le trajet chronometre partait d'ou tu te trouvais et n'arrivait nulle part.\n\nLes menus deroulants et les champs de quantite sortaient en blanc au milieu d'une page sombre : celui des auras, celui d'Eden, et le choix de la langue.\n\nComment s'en servir : coche Ramasser dans l'ocean, puis lance l'Auto Fish. Le premier depart attend l'intervalle entier, 30 minutes par defaut ; mets 0 pour qu'il parte au prochain lancer."
+    "version": "4.32",
+    "url": "https://files.catbox.moe/4wmi8p.zip",
+    "notes": "La marche dans l'ocean est examinee AVANT de lancer la ligne. Elle etait regardee apres une prise reussie, donc la peche passait toujours en premier, et quand la ligne ne mordait pas elle n'etait jamais examinee du tout. Avec l'intervalle a 0 elle part maintenant au premier tour.\n\nUn bouton fait UNIQUEMENT la marche, en boucle, sans pecher entre deux. Il refuse de partir si l'Auto Fish tourne : les deux se disputeraient le clavier. C'est aussi la facon d'essayer le trajet sans attendre l'intervalle.\n\nAuto Fish et Summer Event sont deux sous onglets en haut de la page, au lieu d'une carte au bas d'une page deja longue."
 }
