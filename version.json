@@ -1,5 +1,5 @@
 {
-    "version": "4.30",
-    "url": "https://files.catbox.moe/usihjy.zip",
-    "notes": "Un onglet Summer Event, repris de FishSol 1.9.9-1.\n\nLa macro traverse l'ocean, ramasse les objets d'ete, puis revient pecher. Elle equipe l'aura flottante que tu choisis parmi 24, presse la touche de ramassage pendant toute la traversee, et peut arreter les rolls le temps du trajet pour ne pas se faire changer d'aura au milieu de l'eau.\n\nL'intervalle est reglable : 15 minutes pour le plus d'objets, 0 pour enchainer sans attendre. Le trajet suit le mode choisi dans l'onglet Auto Fish, et il existe pour les trois : serveur prive, serveur public, Abyssal.\n\nA savoir : le trajet dure entre 4 et 7 minutes selon le mode, pendant lesquelles la peche s'arrete. Il part eteint. Essaie le une premiere fois en regardant l'ecran avant de le laisser tourner la nuit."
+    "version": "4.31",
+    "url": "https://files.catbox.moe/tgqvm0.zip",
+    "notes": "Summer Event vit maintenant DANS l'onglet Auto Fish, et plus a cote. La marche ne part que pendant la peche : un onglet a part laissait croire qu'elle tournait toute seule.\n\nElle commence desormais par une reapparition, comme dans FishSol. Sans elle, le trajet chronometre partait d'ou tu te trouvais et n'arrivait nulle part.\n\nLes menus deroulants et les champs de quantite sortaient en blanc au milieu d'une page sombre : celui des auras, celui d'Eden, et le choix de la langue.\n\nComment s'en servir : coche Ramasser dans l'ocean, puis lance l'Auto Fish. Le premier depart attend l'intervalle entier, 30 minutes par defaut ; mets 0 pour qu'il parte au prochain lancer."
 }
