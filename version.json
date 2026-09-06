@@ -1,5 +1,5 @@
 {
-    "version": "4.28",
-    "url": "https://files.catbox.moe/qtc0n0.zip",
-    "notes": "Quatre correctifs, dont trois viennent de FishSol 1.9.9-1.\n\nLe retrait de l'aura remonte la liste avant d'y cliquer. Une liste laissee defilee faisait tomber le clic a cote, le panneau restait ouvert, et l'Echap du reset fermait ce panneau au lieu d'ouvrir le menu : pas de reapparition, et le voyage au marchand partait du mauvais endroit.\n\nLa vente attend que le jeu la confirme au lieu de compter sur une pause fixe, et ferme la boutique si rien ne vient.\n\nLa macro regarde toute la liste du marchand pour savoir s'il reste des poissons, au lieu d'une bande de neuf pixels.\n\nMultiple Roblox Instances se cherche aussi la ou la macro est installee, et sur son disque. Ceux qui rangent tout hors du dossier utilisateur ne le voyaient jamais trouve. Si rien n'est trouve, le journal dit ou il a cherche."
+    "version": "4.29",
+    "url": "https://files.catbox.moe/867oix.zip",
+    "notes": "La macro n'a plus besoin de Multiple Roblox Instances.\n\nLa mise en place prend le verrou multi Roblox elle meme, avec ses propres moyens. Multiple Roblox Instances reste un repli, utilise seulement si le verrou ne se prend pas.\n\nPourquoi : cet outil fuit environ 874 Mo par heure, mesure sur 40 echantillons. Il ecoute tous les demarrages de processus de Windows et ne rend jamais ce que le systeme lui donne. Sur une longue session la memoire se remplit, Windows se met a echanger sur le disque, et toute la machine ralentit, pas seulement lui.\n\nSi rien n'est trouve au moment du repli, le journal dit desormais dans quels dossiers il a cherche."
 }
