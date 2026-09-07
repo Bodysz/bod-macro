@@ -1,5 +1,5 @@
 {
-    "version": "4.32",
-    "url": "https://files.catbox.moe/4wmi8p.zip",
-    "notes": "La marche dans l'ocean est examinee AVANT de lancer la ligne. Elle etait regardee apres une prise reussie, donc la peche passait toujours en premier, et quand la ligne ne mordait pas elle n'etait jamais examinee du tout. Avec l'intervalle a 0 elle part maintenant au premier tour.\n\nUn bouton fait UNIQUEMENT la marche, en boucle, sans pecher entre deux. Il refuse de partir si l'Auto Fish tourne : les deux se disputeraient le clavier. C'est aussi la facon d'essayer le trajet sans attendre l'intervalle.\n\nAuto Fish et Summer Event sont deux sous onglets en haut de la page, au lieu d'une carte au bas d'une page deja longue."
+    "version": "4.33",
+    "url": "https://files.catbox.moe/1gp6jx.zip",
+    "notes": "Le suivi des auras repart avec la macro et tourne en permanence. Il ne demarrait que par le bouton, donc il mourait a chaque mise a jour : six redemarrages sans une seule detection.\n\nUne trouvaille deja annoncee ne repasse plus. Au premier demarrage la macro relisait les cinquante derniers messages du bot et rejouait le passe, jusqu'a quarante enregistrements d'un coup. L'identite vient maintenant du message du bot, pas d'une horloge.\n\nL'extrait est confirme : la macro guette ton dossier video et dit le nom du fichier, ou dit que ton enregistreur n'a pas repondu a la touche.\n\nLe minimum de rarete dit pourquoi il refuse, et un minimum illisible ne fait plus tout enregistrer en silence. La pastille de l'onglet Auras lit ce qui tourne au lieu de rester verte.\n\nAu premier lancement tes auras passees seront annoncees une derniere fois dans le journal. Aucun extrait ne partira."
 }
