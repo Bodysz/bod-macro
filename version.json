@@ -1,5 +1,5 @@
 {
-    "version": "4.40",
-    "url": "https://files.catbox.moe/hxrefb.zip",
-    "notes": "L'enregistrement d'une aura marche enfin avec OBS. OBS n'entend AUCUNE touche envoyee par un programme : il lit ses raccourcis par Raw Input, qui ne rapporte que le vrai materiel. Mesure du 7 septembre, la touche essayee par deux bibliotheques differentes, aucune des deux n'a rien donne. L'extrait passe maintenant par le serveur d'OBS.\n\nL'extrait porte le nom de l'aura et l'heure : Astral Zodiac 15h45.mp4 au lieu de Replay 07-09-2026 15-45.mp4.\n\nLa touche reste envoyee quand OBS n'est pas la : Medal et la barre de jeu Xbox, eux, l'entendent tres bien. Le journal dit toujours quelle voie a ete prise. Le biome rare et Eden passaient par le meme mur, ils passent par la meme porte.\n\nDans le groupe Special de l'aura qui flotte, Raft remplace Beach Ball."
+    "version": "4.41",
+    "url": "https://files.catbox.moe/3fqu3j.zip",
+    "notes": "Le bot annonce une trouvaille de sept facons differentes au moins, et six passaient a travers. « has opened their Tavern », « has devoured X », « has stood before the God », « All hail, The X », « has conquered the Sun »... Ce sont les champs du message qui decident maintenant, plus la tournure, et le pseudo se lit la ou il vit vraiment. Plus aucune formule ne se perd, meme une que le bot vient d'inventer.\n\nLe pseudo entre parentheses est enfin reconnu : Nom(@handle) rendait le nom affiche au lieu du handle, et le filtre rejetait des trouvailles legitimes.\n\nUne chance maximale au dela de laquelle on n'enregistre pas. La meme aura trouvee a 15 de chance ne vaut pas la meme a 780 010, et la rarete seule ne les distingue pas. Zero veut dire aucune limite."
 }
