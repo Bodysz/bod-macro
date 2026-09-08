@@ -1,5 +1,5 @@
 {
-    "version": "4.44",
-    "url": "https://files.catbox.moe/0sg8lj.zip",
-    "notes": "L'Auto Fish peut travailler sur un autre ecran que le principal. Le menu est en haut de la page, visible seulement dans l'onglet Auto Fish, et un bouton applique le choix. Sans ecran choisi, rien ne change.\n\nPourquoi ca ne marchait pas tout seul : les coordonnees de la peche sont celles du bureau entier. L'ecran principal commence a (0,0), le second a (1920,0), donc un repere visait toujours le principal. Et la capture ne voyait que lui. La peche regardait un ecran et cliquait dessus pendant que le jeu etait a cote.\n\nUn ecran debranche ne fait pas cliquer dans le vide : la macro le dit et revient a l'ecran principal."
+    "version": "4.50",
+    "url": "https://files.catbox.moe/i6u5un.zip",
+    "notes": "Le trajet de l'Auto Fish sait jouer sur un clavier hebreu, russe ou grec.\n\nSur ces claviers, aucune lettre latine ne peut etre envoyee du tout : Windows n'a pas de touche a proposer pour un W ou un A. La macro presse alors les touches par leur POSITION sur le clavier, ce qui ne depend d'aucune disposition.\n\nLa case est dans l'onglet Auto Fish, sous AZERTY, et elle ne concerne que le trajet. Sans elle, rien ne change."
 }
