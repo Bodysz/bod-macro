@@ -1,5 +1,5 @@
 {
-    "version": "4.41",
-    "url": "https://files.catbox.moe/3fqu3j.zip",
-    "notes": "Le bot annonce une trouvaille de sept facons differentes au moins, et six passaient a travers. « has opened their Tavern », « has devoured X », « has stood before the God », « All hail, The X », « has conquered the Sun »... Ce sont les champs du message qui decident maintenant, plus la tournure, et le pseudo se lit la ou il vit vraiment. Plus aucune formule ne se perd, meme une que le bot vient d'inventer.\n\nLe pseudo entre parentheses est enfin reconnu : Nom(@handle) rendait le nom affiche au lieu du handle, et le filtre rejetait des trouvailles legitimes.\n\nUne chance maximale au dela de laquelle on n'enregistre pas. La meme aura trouvee a 15 de chance ne vaut pas la meme a 780 010, et la rarete seule ne les distingue pas. Zero veut dire aucune limite."
+    "version": "4.44",
+    "url": "https://files.catbox.moe/0sg8lj.zip",
+    "notes": "L'Auto Fish peut travailler sur un autre ecran que le principal. Le menu est en haut de la page, visible seulement dans l'onglet Auto Fish, et un bouton applique le choix. Sans ecran choisi, rien ne change.\n\nPourquoi ca ne marchait pas tout seul : les coordonnees de la peche sont celles du bureau entier. L'ecran principal commence a (0,0), le second a (1920,0), donc un repere visait toujours le principal. Et la capture ne voyait que lui. La peche regardait un ecran et cliquait dessus pendant que le jeu etait a cote.\n\nUn ecran debranche ne fait pas cliquer dans le vide : la macro le dit et revient a l'ecran principal."
 }
