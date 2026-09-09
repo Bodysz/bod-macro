@@ -1,5 +1,5 @@
 {
-    "version": "4.50",
-    "url": "https://files.catbox.moe/i6u5un.zip",
-    "notes": "Le trajet de l'Auto Fish sait jouer sur un clavier hebreu, russe ou grec.\n\nSur ces claviers, aucune lettre latine ne peut etre envoyee du tout : Windows n'a pas de touche a proposer pour un W ou un A. La macro presse alors les touches par leur POSITION sur le clavier, ce qui ne depend d'aucune disposition.\n\nLa case est dans l'onglet Auto Fish, sous AZERTY, et elle ne concerne que le trajet. Sans elle, rien ne change."
+    "version": "4.51",
+    "url": "https://files.catbox.moe/u0npgs.zip",
+    "notes": "Les ecrans 1920x1200 ont enfin leurs propres reperes de peche.\n\nAvant, la macro les deduisait du 1920x1080 par une regle de trois. Les chiffres avaient l'air justes et ne l'etaient pas : la confirmation de vente n'etait jamais vue, la macro attendait cinq secondes puis fermait la boutique sans avoir vendu.\n\nLes nouveaux reperes sont mesures sur de vraies captures, un par un. Une pre-configuration 1920x1200 et un profil livre nomme \"rare fish macro\" les portent aussi, pour ceux qui preferent les appliquer a la main."
 }
