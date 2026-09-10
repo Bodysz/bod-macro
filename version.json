@@ -1,5 +1,5 @@
 {
-    "version": "4.52",
-    "url": "https://files.catbox.moe/6yiihn.zip",
-    "notes": "Le secours de peche en 1920x1200 vise enfin ce qui est a l'ecran quand la peche se bloque : la croix qui ferme le panneau, puis le bouton Fish la ou il est camera rapprochee. Ses deux points etaient encore decales du 1080p.\n\nCe que la capture du blocage a appris : le panneau de peche suit la CAMERA, il n'est pas fixe a l'ecran. Entre deux captures du meme ecran, fenetre identique au pixel pres, il s'etait deplace de 246 pixels. Quand le zoom derive, le panneau n'est plus sous le clic et la prise reste ouverte : c'est exactement ce que le secours rattrape.\n\nIl couvre desormais les deux positions du bouton, pas une seule."
+    "version": "4.53",
+    "url": "https://files.catbox.moe/a1lyeq.zip",
+    "notes": "Detection avancee dans l'onglet Auto Fish.\n\nUn interrupteur, et une glissiere de -30 a +30 pixels qui decide si le clic part AVANT ou APRES la sortie de la couleur hors de la zone. Vers la droite on clique en avance, vers la gauche en retard. Pour les machines qui laguent : moins de prises ratees.\n\nCe n'est pas un minuteur. C'est la largeur de ce qu'on regarde qui change, donc rien ne peut deriver et une machine lente ne la deregle pas.\n\nA zero, ou eteinte, rien ne change : la zone est celle d'avant, au pixel pres."
 }
