@@ -1,5 +1,5 @@
 {
-    "version": "4.53",
-    "url": "https://files.catbox.moe/a1lyeq.zip",
-    "notes": "Detection avancee dans l'onglet Auto Fish.\n\nUn interrupteur, et une glissiere de -30 a +30 pixels qui decide si le clic part AVANT ou APRES la sortie de la couleur hors de la zone. Vers la droite on clique en avance, vers la gauche en retard. Pour les machines qui laguent : moins de prises ratees.\n\nCe n'est pas un minuteur. C'est la largeur de ce qu'on regarde qui change, donc rien ne peut deriver et une machine lente ne la deregle pas.\n\nA zero, ou eteinte, rien ne change : la zone est celle d'avant, au pixel pres."
+    "version": "4.54",
+    "url": "https://files.catbox.moe/smfz4b.zip",
+    "notes": "La macro pouvait planter au lancement avec l'erreur Permission denied sur biomes_data.json, avant meme d'ouvrir sa fenetre.\n\nLa cause : quand ce fichier manquait, la macro en ecrivait une copie par defaut dans le dossier d'ou elle etait lancee. Si ce dossier refusait l'ecriture (protection de Windows sur Documents, raccourci qui demarre ailleurs, OneDrive), tout s'arretait.\n\nMaintenant la copie s'ecrit dans AppData, comme le reste de tes reglages, et une ecriture refusee ne l'empeche plus de demarrer. Chez ceux a qui tout marchait, rien ne change.\n\nSi ta macro plantait deja au lancement, elle ne peut pas t'afficher cette mise a jour : telecharge ce zip a la main une fois."
 }
