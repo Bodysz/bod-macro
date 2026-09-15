@@ -1,5 +1,5 @@
 {
-    "version": "4.54",
-    "url": "https://files.catbox.moe/smfz4b.zip",
-    "notes": "La macro pouvait planter au lancement avec l'erreur Permission denied sur biomes_data.json, avant meme d'ouvrir sa fenetre.\n\nLa cause : quand ce fichier manquait, la macro en ecrivait une copie par defaut dans le dossier d'ou elle etait lancee. Si ce dossier refusait l'ecriture (protection de Windows sur Documents, raccourci qui demarre ailleurs, OneDrive), tout s'arretait.\n\nMaintenant la copie s'ecrit dans AppData, comme le reste de tes reglages, et une ecriture refusee ne l'empeche plus de demarrer. Chez ceux a qui tout marchait, rien ne change.\n\nSi ta macro plantait deja au lancement, elle ne peut pas t'afficher cette mise a jour : telecharge ce zip a la main une fois."
+    "version": "4.55",
+    "url": "https://files.catbox.moe/w8s8y6.zip",
+    "notes": "Lancer un compte Roblox n'est plus refuse quand un Roblox est deja ouvert.\n\nLa macro ne reconnaissait les outils multi instance qu'a leur nom : MultipleRobloxInstances, MultiRoblox et Voidstrap. D'autres outils font pourtant la meme chose, comme Real, et chez eux la macro refusait a tort de lancer le compte.\n\nMaintenant le lancement part. Le message de lancement ajoute une phrase courte pour rappeler de verifier que la fenetre qui s'ouvre est bien celle du compte, et le journal garde la trace.\n\nA savoir : sans aucun outil multi instance, un Roblox deja ouvert recevra le lancement sous le compte deja connecte."
 }
