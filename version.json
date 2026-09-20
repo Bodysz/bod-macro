@@ -1,5 +1,5 @@
 {
-    "version": "5-beta.2",
-    "url": "https://files.catbox.moe/3dcfj1.zip",
-    "notes": "Version beta.\n\nThe Amalgamation : la vie du boss, la recharge de la competence et un chrono du combat, poses par dessus le jeu.\n\nL'onglet tient maintenant en quatre lignes, chacune avec son image, et ses options ne tournent que dans le boss."
+    "version": "5-beta.3",
+    "url": "https://files.catbox.moe/3kvnq0.zip",
+    "notes": "Version beta.\n\nTous les journaux vivent maintenant dans le meme dossier : Go logs n'ouvre plus qu'une fenetre, et le journal deja ecrit part avec.\n\nLes images de The Amalgamation etaient trop petites et coupees sur les bords.\n\nLe paquet ne contient plus qu'un seul executable, ArctantiqueMacro. Si ta macro porte encore l'ancien nom, telecharge le zip une fois a la main."
 }
