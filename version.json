@@ -1,5 +1,5 @@
 {
-    "version": "4.55",
-    "url": "https://files.catbox.moe/w8s8y6.zip",
-    "notes": "Lancer un compte Roblox n'est plus refuse quand un Roblox est deja ouvert.\n\nLa macro ne reconnaissait les outils multi instance qu'a leur nom : MultipleRobloxInstances, MultiRoblox et Voidstrap. D'autres outils font pourtant la meme chose, comme Real, et chez eux la macro refusait a tort de lancer le compte.\n\nMaintenant le lancement part. Le message de lancement ajoute une phrase courte pour rappeler de verifier que la fenetre qui s'ouvre est bien celle du compte, et le journal garde la trace.\n\nA savoir : sans aucun outil multi instance, un Roblox deja ouvert recevra le lancement sous le compte deja connecte."
+    "version": "5-beta.1",
+    "url": "https://files.catbox.moe/8a8254.zip",
+    "notes": "Version beta.\n\nCorrections."
 }
