@@ -1,5 +1,5 @@
 {
-    "version": "5-beta.3",
-    "url": "https://files.catbox.moe/3kvnq0.zip",
-    "notes": "Version beta.\n\nTous les journaux vivent maintenant dans le meme dossier : Go logs n'ouvre plus qu'une fenetre, et le journal deja ecrit part avec.\n\nLes images de The Amalgamation etaient trop petites et coupees sur les bords.\n\nLe paquet ne contient plus qu'un seul executable, ArctantiqueMacro. Si ta macro porte encore l'ancien nom, telecharge le zip une fois a la main."
+    "version": "5-beta.4",
+    "url": "https://files.catbox.moe/souyul.zip",
+    "notes": "Version beta.\n\nLes termes du sniper se rangent par groupes, et se deplacent a la souris.\n\nC'est uniquement l'affichage : ce que le sniper attrape ne change pas d'un mot."
 }
