@@ -1,5 +1,5 @@
 {
-    "version": "5-beta.4",
-    "url": "https://files.catbox.moe/souyul.zip",
-    "notes": "Version beta.\n\nLes termes du sniper se rangent par groupes, et se deplacent a la souris.\n\nC'est uniquement l'affichage : ce que le sniper attrape ne change pas d'un mot."
+    "version": "5-beta.5",
+    "url": "https://files.catbox.moe/0zi7uw.zip",
+    "notes": "Version beta.\n\nL'onglet Summer Event et le minigame de la pasteque sont retires.\n\nL'interface est resserree : les textes d'explication, la carte Pings vide et les liens cliques a la main sont partis, les boutons ne collent plus aux barres, et le tableau de bord tient en quatre rangees.\n\nThe Amalgamation ne s'affiche que sur le compte Bod."
 }
