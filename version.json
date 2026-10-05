@@ -1,5 +1,5 @@
 {
-    "version": "5-beta.5",
-    "url": "https://files.catbox.moe/0zi7uw.zip",
-    "notes": "Version beta.\n\nL'onglet Summer Event et le minigame de la pasteque sont retires.\n\nL'interface est resserree : les textes d'explication, la carte Pings vide et les liens cliques a la main sont partis, les boutons ne collent plus aux barres, et le tableau de bord tient en quatre rangees.\n\nThe Amalgamation ne s'affiche que sur le compte Bod."
+    "version": "5-beta.6",
+    "url": "https://files.catbox.moe/asu1me.zip",
+    "notes": "Version beta.\n\nLe biome se lit maintenant dans la Rich Presence du jeu.\n\nUne erreur du jeu qui contient le mot NULL ne declenche plus un faux biome NULL, avec ses webhooks. Dans un seul journal, elle paraissait 464 fois."
 }
