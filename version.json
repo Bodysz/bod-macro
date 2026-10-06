@@ -1,5 +1,5 @@
 {
-    "version": "5-beta.6",
-    "url": "https://files.catbox.moe/asu1me.zip",
-    "notes": "Version beta.\n\nLe biome se lit maintenant dans la Rich Presence du jeu.\n\nUne erreur du jeu qui contient le mot NULL ne declenche plus un faux biome NULL, avec ses webhooks. Dans un seul journal, elle paraissait 464 fois."
+    "version": "5.10",
+    "url": "https://files.catbox.moe/w3hcg3.zip",
+    "notes": "Nouvel onglet Auto-Snipe. Il guette les annonces de biome sur Discord et rejoint le serveur tout seul.\n\nUn seul moteur tourne a la fois. Lancer la macro, le sniper ou l'Auto-Snipe demande une confirmation.\n\nLa barre de gauche se range en categories qu'on plie et deplie.\n\nLes webhooks montrent l'image du biome et un bouton Join Server a la place du lien. Chaque webhook peut avoir son propre serveur, et chaque alerte dit la duree de la session et le nombre de biomes trouves.\n\nFree memory rend la memoire a toute la machine, et un plafond de RAM par Roblox se regle.\n\nLes Roblox a choisir portent le pseudo du compte, le type d'installation et la tete du skin.\n\nL'ancienne interface est retiree. Plus de clignotement au demarrage, et Tout mettre en place ne tombe plus en erreur."
 }
