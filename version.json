@@ -1,5 +1,5 @@
 {
-    "version": "5.13",
-    "url": "https://files.catbox.moe/333cva.zip",
-    "notes": "Singularity peut etre cochee dans l'Auto-Snipe.\n\nChaque serveur deplie a sa propre barre de recherche de salons, et le bouton n'est plus qu'une fleche.\n\nLe point du sniper dans la barre des taches verdit des que la recherche demarre, et non au biome suivant.\n\nUn defaut qui pouvait tuer la macro sans laisser de trace est corrige. Ce qui resterait s'ecrit maintenant dans plantages.txt, a cote des autres journaux.\n\nLancer un compte Roblox rejoue la commande du lanceur installe, et retombe sur Roblox Player quand elle designe un programme efface. Plus d'Application introuvable."
+    "version": "5.14",
+    "url": "https://files.catbox.moe/gty49u.zip",
+    "notes": "La 5.13 pouvait figer la fenetre, et Windows la fermait. Le point de la barre des taches ne se repose plus depuis un fil de fond.\n\nLe point du sniper suit toujours la recherche : il verdit au demarrage, sans attendre le biome suivant.\n\nSingularity peut etre cochee dans l'Auto-Snipe.\n\nChaque serveur deplie a sa propre barre de recherche de salons, et le bouton n'est plus qu'une fleche.\n\nLancer un compte Roblox rejoue la commande du lanceur installe, et retombe sur Roblox Player quand elle designe un programme efface."
 }
