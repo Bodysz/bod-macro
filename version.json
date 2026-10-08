@@ -1,5 +1,5 @@
 {
-    "version": "5.18",
-    "url": "https://files.catbox.moe/37oaza.zip",
-    "notes": "Chaque action pouvait prendre plusieurs secondes : la page interrogeait tous les programmes du PC. Elle ne regarde plus que Roblox.\n\nTout tient dans macro_logs.txt : activite, erreurs, plantages et gels, avec la version a chaque demarrage. Un seul fichier a envoyer.\n\nUne lecture lente se nomme dans le journal, en ligne [Lent]."
+    "version": "5.19",
+    "url": "https://files.catbox.moe/y99pna.zip",
+    "notes": "La fenetre ne se fige plus au lancement ni en changeant d'onglet.\n\nLe gel de 15 a 30 s apres le lancement, quand le sniper se connecte, est corrige.\n\nLe + de l'onglet Webhook ajoute vraiment une adresse."
 }
