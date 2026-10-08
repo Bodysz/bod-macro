@@ -1,5 +1,5 @@
 {
-    "version": "5.15",
-    "url": "https://files.catbox.moe/cx248d.zip",
-    "notes": "La pastille de la barre des taches pouvait tuer la macro. Elle passe par le bon appartement COM, et si elle fait tomber la macro une fois, elle s'eteint toute seule.\n\nLe point du sniper verdit au demarrage de la recherche, sans attendre le biome suivant.\n\nSingularity peut etre cochee dans l'Auto-Snipe.\n\nChaque serveur deplie a sa propre barre de recherche de salons, et le bouton n'est plus qu'une fleche.\n\nLancer un compte Roblox rejoue la commande du lanceur installe, et retombe sur Roblox Player quand elle designe un programme efface."
+    "version": "5.16",
+    "url": "https://files.catbox.moe/mobfvm.zip",
+    "notes": "Fermer la fenetre ferme vraiment la macro. Elle pouvait rester en vie sans fenetre, et la mise a jour suivante echouait. La pastille de la barre des taches revient au fonctionnement de la 5.12.\n\nTrois compteurs de biomes independants : Main, Sniper et Auto-Snipe. Le Sniper compte a l'entree confirmee, l'Auto-Snipe au biome confirme.\n\nSingularity passe au rang 5, entre Heaven et Glitched.\n\nLa decouverte des salons de l'Auto-Snipe reprend celle du Sniper : meme fleche, onglets de compte, recherche par serveur. La liste des salons surveilles est rangee par serveur, et ajouter un salon ne referme plus la liste des serveurs.\n\nChaque snipe detaille ses millisecondes dans le journal."
 }
