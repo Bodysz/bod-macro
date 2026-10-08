@@ -1,5 +1,5 @@
 {
-    "version": "5.14",
-    "url": "https://files.catbox.moe/gty49u.zip",
-    "notes": "La 5.13 pouvait figer la fenetre, et Windows la fermait. Le point de la barre des taches ne se repose plus depuis un fil de fond.\n\nLe point du sniper suit toujours la recherche : il verdit au demarrage, sans attendre le biome suivant.\n\nSingularity peut etre cochee dans l'Auto-Snipe.\n\nChaque serveur deplie a sa propre barre de recherche de salons, et le bouton n'est plus qu'une fleche.\n\nLancer un compte Roblox rejoue la commande du lanceur installe, et retombe sur Roblox Player quand elle designe un programme efface."
+    "version": "5.15",
+    "url": "https://files.catbox.moe/cx248d.zip",
+    "notes": "La pastille de la barre des taches pouvait tuer la macro. Elle passe par le bon appartement COM, et si elle fait tomber la macro une fois, elle s'eteint toute seule.\n\nLe point du sniper verdit au demarrage de la recherche, sans attendre le biome suivant.\n\nSingularity peut etre cochee dans l'Auto-Snipe.\n\nChaque serveur deplie a sa propre barre de recherche de salons, et le bouton n'est plus qu'une fleche.\n\nLancer un compte Roblox rejoue la commande du lanceur installe, et retombe sur Roblox Player quand elle designe un programme efface."
 }
