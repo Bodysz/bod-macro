@@ -1,5 +1,5 @@
 {
-    "version": "5.19",
-    "url": "https://files.catbox.moe/y99pna.zip",
-    "notes": "La fenetre ne se fige plus au lancement ni en changeant d'onglet.\n\nLe gel de 15 a 30 s apres le lancement, quand le sniper se connecte, est corrige.\n\nLe + de l'onglet Webhook ajoute vraiment une adresse."
+    "version": "5.20",
+    "url": "https://files.catbox.moe/ww7uq2.zip",
+    "notes": "L'enregistrement auto des auras remarche. Le suivi des auras ne repartait plus au lancement."
 }
