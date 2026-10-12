@@ -1,5 +1,5 @@
 {
-    "version": "5.21",
-    "url": "https://files.catbox.moe/qwb4mh.zip",
-    "notes": "Option du sniper : envoyer le lien avant de couper la macro.\n\nL'entree dans le serveur apres un snipe est confirmee, meme apres une file d'attente. Le compteur du Sniper augmente.\n\nUn salon du sniper peut etre associe a un biome : un lien poste seul y est snipe.\n\nChaque compte Discord s'allume ou s'eteint pour le Sniper et pour l'Auto-Snipe.\n\nChoix du compte Discord qui recoit les auras.\n\nInterface plus propre : les explications passent en infobulle."
+    "version": "5.22",
+    "url": "https://files.catbox.moe/131026.zip",
+    "notes": "Le sniper donne le lien court directement au lanceur du Microsoft Store : il arrive plus vite.\n\nUne case de l'onglet Sniper ramene l'ancienne facon."
 }
