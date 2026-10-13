@@ -1,5 +1,5 @@
 {
-    "version": "5.22",
-    "url": "https://files.catbox.moe/131026.zip",
-    "notes": "Le sniper donne le lien court directement au lanceur du Microsoft Store : il arrive plus vite.\n\nUne case de l'onglet Sniper ramene l'ancienne facon."
+    "version": "5.23",
+    "url": "https://files.catbox.moe/q5sa85.zip",
+    "notes": "La macro se lance en administrateur (Windows le demande), Roblox reste lance normalement.\n\nLe bridage se regle pour chaque Roblox, Player et Microsoft Store.\n\nLe compte a mentionner du sniper s'enregistre enfin, et son webhook est refait."
 }
