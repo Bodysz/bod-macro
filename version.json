@@ -1,5 +1,5 @@
 {
-    "version": "5.26",
-    "url": "https://files.catbox.moe/8m7uya.zip",
-    "notes": "Lost Forest dans l'Auto-Snipe, et son image dans les alertes.\n\nLe sniper ignore l'apercu des liens : le titre du jeu ne declenche plus de snipe.\n\nLes liens Join here qui passent par GitHub lancent Roblox directement."
+    "version": "5.27",
+    "url": "https://files.catbox.moe/q7bqv8.zip",
+    "notes": "Les images des biomes chargent mieux dans Discord : elles sont maintenant sur GitHub.\n\nRainy et Null ont de nouveau une image, Incinerator en a une."
 }
