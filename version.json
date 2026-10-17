@@ -1,5 +1,5 @@
 {
-    "version": "5.25",
-    "url": "https://files.catbox.moe/h4p8z1.zip",
-    "notes": "Deux nouveaux biomes : Lost Forest et Radiant Forest, detectes et comptes."
+    "version": "5.26",
+    "url": "https://files.catbox.moe/8m7uya.zip",
+    "notes": "Lost Forest dans l'Auto-Snipe, et son image dans les alertes.\n\nLe sniper ignore l'apercu des liens : le titre du jeu ne declenche plus de snipe.\n\nLes liens Join here qui passent par GitHub lancent Roblox directement."
 }
