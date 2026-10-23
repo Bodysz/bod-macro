@@ -1,5 +1,5 @@
 {
-    "version": "5.27",
-    "url": "https://files.catbox.moe/q7bqv8.zip",
-    "notes": "Les images des biomes chargent mieux dans Discord : elles sont maintenant sur GitHub.\n\nRainy et Null ont de nouveau une image, Incinerator en a une."
+    "version": "5.28",
+    "url": "https://files.catbox.moe/n5ef1m.zip",
+    "notes": "Un style d'alerte par webhook (celui de la macro, ou MultiScope a l'identique) et une case Biome only.\n\nRadiant Forest est enfin detecte, avec son image. Une coupure ne remet plus les reglages et les stats a zero, et une copie est gardee chaque jour."
 }
