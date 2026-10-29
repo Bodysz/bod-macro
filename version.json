@@ -1,5 +1,5 @@
 {
-    "version": "5.28",
-    "url": "https://files.catbox.moe/n5ef1m.zip",
-    "notes": "Un style d'alerte par webhook (celui de la macro, ou MultiScope a l'identique) et une case Biome only.\n\nRadiant Forest est enfin detecte, avec son image. Une coupure ne remet plus les reglages et les stats a zero, et une copie est gardee chaque jour."
+    "version": "5.29",
+    "url": "https://files.catbox.moe/qg0p42.zip",
+    "notes": "Auto Fish : le Biome Selector, toutes les 61 min par defaut, avec le Drive de ton choix, verifie avant de confirmer.\n\nCorrige : la fenetre de prise restee ouverte, la vente en 2560x1440, et un reglage qui pouvait se perdre a l'enregistrement."
 }
