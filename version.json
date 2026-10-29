@@ -1,5 +1,5 @@
 {
-    "version": "5.29",
-    "url": "https://files.catbox.moe/qg0p42.zip",
-    "notes": "Auto Fish : le Biome Selector, toutes les 61 min par defaut, avec le Drive de ton choix, verifie avant de confirmer.\n\nCorrige : la fenetre de prise restee ouverte, la vente en 2560x1440, et un reglage qui pouvait se perdre a l'enregistrement."
+    "version": "5.30",
+    "url": "https://files.catbox.moe/nzv58w.zip",
+    "notes": "Auto-Snipe + Auto Fish : la macro peche entre les snipes, et le compteur de poissons suit d'un serveur a l'autre. Choix du coin de peche.\n\nLes compteurs rangent les biomes Event a part. Le bouton Play est trouve quelle que soit la langue de Roblox."
 }
