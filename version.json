@@ -1,5 +1,5 @@
 {
-    "version": "5.31",
-    "url": "https://files.catbox.moe/y3n1rj.zip",
-    "notes": "Auras : un bouton active le WebSocket d'OBS, un autre teste l'enregistrement.\n\nAuto-Snipe + Auto Fish : la meme configuration que l'Auto Fish du Main, sans les objets qui changent le biome, jamais les deux en meme temps, et plus de respawn en arrivant sur un serveur.\n\nBiome Selector : le Drive voulu et Confirm sont lus a l'ecran, et l'inventaire n'est plus rouvert apres."
+    "version": "5.32",
+    "url": "https://files.catbox.moe/1ovwoz.zip",
+    "notes": "Reglages : un bouton Send logs envoie tes logs au developpeur, avec la raison."
 }
