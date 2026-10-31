@@ -1,5 +1,5 @@
 {
-    "version": "5.33",
-    "url": "https://files.catbox.moe/lz8ayq.zip",
-    "notes": "Biome Selector : la macro lit d'abord quel ecran est affiche, et ne clique plus sur le texte de la question.\n\nAuto Fish : le trajet du Main ne change plus, le coin choisi ne vaut que pour l'Auto-Snipe."
+    "version": "5.34",
+    "url": "https://files.catbox.moe/43nrqx.zip",
+    "notes": "Biome Selector : chaque Drive se lit a la couleur de son cadre, le bon est trouve meme en direct."
 }
