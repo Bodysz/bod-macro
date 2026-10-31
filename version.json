@@ -1,5 +1,5 @@
 {
-    "version": "5.34",
-    "url": "https://files.catbox.moe/43nrqx.zip",
-    "notes": "Biome Selector : chaque Drive se lit a la couleur de son cadre, le bon est trouve meme en direct."
+    "version": "5.35",
+    "url": "https://files.catbox.moe/acz0r7.zip",
+    "notes": "Auras : l'extrait est trouve la ou OBS l'a range, puis renomme (aura + heure).\n\nAuras : les extraits vont dans le dossier Aura Found Sol's."
 }
