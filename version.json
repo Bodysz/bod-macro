@@ -1,5 +1,5 @@
 {
-    "version": "5.35",
-    "url": "https://files.catbox.moe/acz0r7.zip",
-    "notes": "Auras : l'extrait est trouve la ou OBS l'a range, puis renomme (aura + heure).\n\nAuras : les extraits vont dans le dossier Aura Found Sol's."
+    "version": "5.36",
+    "url": "https://files.catbox.moe/j1u0df.zip",
+    "notes": "Auto-Snipe : les biomes Event se snipent, dans leur propre categorie."
 }
