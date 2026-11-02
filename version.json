@@ -1,5 +1,5 @@
 {
-    "version": "5.36",
-    "url": "https://files.catbox.moe/j1u0df.zip",
-    "notes": "Auto-Snipe : les biomes Event se snipent, dans leur propre categorie."
+    "version": "5.37",
+    "url": "https://gist.githubusercontent.com/Bodysz/2514c93062dd30450ff4e56f04dc8572/raw/202e523bd385df909e90a9fe1e433df291806be6/ArctantiqueMacro-5.37.zip",
+    "notes": "Auto-Snipe : la file d'attente ne garde que la derniere annonce.\n\nAuto-Snipe : plus de boucle sans fin en reprenant la file."
 }
