@@ -1,5 +1,5 @@
 {
-    "version": "5.37",
-    "url": "https://gist.githubusercontent.com/Bodysz/2514c93062dd30450ff4e56f04dc8572/raw/202e523bd385df909e90a9fe1e433df291806be6/ArctantiqueMacro-5.37.zip",
-    "notes": "Auto-Snipe : la file d'attente ne garde que la derniere annonce.\n\nAuto-Snipe : plus de boucle sans fin en reprenant la file."
+    "version": "5.38",
+    "url": "https://gist.githubusercontent.com/Bodysz/224c3cb4b7fc80d28e5ff817724dd9fc/raw/9994edc41ac72383c82036456ef2bcf78b26f390/ArctantiqueMacro-5.38.zip",
+    "notes": "Auto-Snipe : la file d'attente garde toujours le serveur le plus recent, quel que soit le biome.\n\nAuras : un bouton Open folder ouvre le dossier des extraits."
 }
