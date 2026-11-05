@@ -1,5 +1,5 @@
 {
-    "version": "5.38",
-    "url": "https://gist.githubusercontent.com/Bodysz/224c3cb4b7fc80d28e5ff817724dd9fc/raw/9994edc41ac72383c82036456ef2bcf78b26f390/ArctantiqueMacro-5.38.zip",
-    "notes": "Auto-Snipe : la file d'attente garde toujours le serveur le plus recent, quel que soit le biome.\n\nAuras : un bouton Open folder ouvre le dossier des extraits."
+    "version": "5.39",
+    "url": "https://files.catbox.moe/7qr0ma.zip",
+    "notes": "Biome Selector : le Drive se trouve et se verifie a sa couleur, plus de Cancel a repetition."
 }
