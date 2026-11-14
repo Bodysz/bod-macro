@@ -1,5 +1,5 @@
 {
-    "version": "6.0.3",
-    "url": "https://gist.githubusercontent.com/Bodysz/a074300ce4308c710fb20b32f04baae6/raw/4287cdc49ec6982fd5d19b0280bd0bb7877e4053/ArctantiqueMacro-6.0.3.zip",
-    "notes": "Français\n\n• Sniper et Auto-Snipe : le webhook porte le lien du message d'origine, que Discord affiche en pastille cliquable.\n• Auto-Snipe : retour à l'accueil Roblox quand le biome demandé est fini et que la file est vide (sauf avec l'Auto Fish entre les snipes).\n\nEnglish\n\n• Sniper and Auto-Snipe: the webhook carries the link to the original message, shown by Discord as a clickable chip.\n• Auto-Snipe: back to the Roblox home screen when the wanted biome is over and the queue is empty (except with Auto Fish between snipes)."
+    "version": "6.0.4",
+    "url": "https://gist.githubusercontent.com/Bodysz/375ee9b7aa0ffbe2047befa1357e4127/raw/a716d5f52c36b6b824293148728822c14d38040b/Arctantique%20v6.0.4.zip",
+    "notes": "Français\n\n• Webhooks : la nouvelle image de Pumpkin Moon s'affiche enfin (Discord gardait l'ancienne en mémoire).\n\nEnglish\n\n• Webhooks: the new Pumpkin Moon image finally shows up (Discord kept the old one cached)."
 }
