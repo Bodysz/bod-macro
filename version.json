@@ -1,5 +1,5 @@
 {
-  "version": "6.0.11",
-  "url": "https://gist.githubusercontent.com/Bodysz/80e8dd52f05d2037e7c606c826169fa0/raw/d94f6a8128d8916f363a60acf5f6037a075ace28/Arctantique%20v6.0.11.zip",
-  "notes": "Français\n\n• Webhook marchand : le lien du serveur privé n’est plus écrit dans le message, il est derrière un bouton « Join Server », comme pour les biomes.\n• Plus de captures d’écran de la boutique : un seul message par marchand (Mari, Jester, Rin), celui qui annonce son arrivée.\n\nEnglish\n\n• Merchant webhook: the private server link is no longer written in the message, it sits behind a \"Join Server\" button, like biome alerts.\n• No more shop screenshots: one message per merchant (Mari, Jester, Rin), the one announcing its arrival."
+  "version": "6.0.12",
+  "url": "https://gist.githubusercontent.com/Bodysz/739af07a00d6abc8d3349b461417f00e/raw/c618599e4366658503c800c2320d7105b9a5d6dd/Arctantique%20v6.0.12.zip",
+  "notes": "Français\n\n• Webhooks : la case « Biome only » laisse aussi passer les marchands (et les Sinister) ; elle s’appelle maintenant « Biomes et marchands seulement ».\n\nEnglish\n\n• Webhooks: the \"Biome only\" toggle now also lets merchants (and Sinister) through; it is now called \"Biomes and merchants only\"."
 }
